@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/README.md.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "README.md"
+              "title": "README"
             }
           }
         ],
@@ -129,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/README.md.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for README.md"
+              "title": "Backlinks for README"
             }
           },
           {
@@ -148,12 +148,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/README.md.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from README.md"
+              "title": "Outgoing links from README"
             }
           },
           {
@@ -219,10 +219,10 @@
       "bases:Create new base": false
     }
   },
-  "active": "9ac728ba17452fd0",
+  "active": "9757dec4315d6ca2",
   "lastOpenFiles": [
     "Index.md",
-    "Notes/README.md.md",
+    "README.md",
     "Useful/Callouts.md",
     "Notes/Adding Strictness.md",
     "Notes/Foldl.md",
