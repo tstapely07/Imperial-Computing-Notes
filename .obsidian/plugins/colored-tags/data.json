@@ -1,0 +1,24 @@
+{
+  "palette": {
+    "seed": 0,
+    "selected": "adaptive-soft",
+    "custom": "e12729-f37324-f8cc1b-72b043-007f4e"
+  },
+  "mixColors": true,
+  "transition": true,
+  "accessibility": {
+    "highTextContrast": false
+  },
+  "knownTags": {
+    "admin": 1,
+    "first-year": 2,
+    "haskell": 3,
+    "lecturers": 2,
+    "m40009": 3,
+    "lecturers/jamie-willis": 1,
+    "lecturers/matt-collison": 2,
+    "lecturers/nick-wu": 1
+  },
+  "tagColors": {},
+  "_version": 4
+}

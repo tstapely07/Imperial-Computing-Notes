@@ -1,0 +1,11 @@
+/* Make block IDs invisible by default */
+.cm-blockid {
+    opacity: 0;
+    transition: opacity 0.2s ease;
+}
+
+/* Reveal them only when you click on that line */
+.cm-active .cm-blockid {
+    opacity: 1;
+    color: var(--text-muted); /* Makes it subtle even when visible */
+}

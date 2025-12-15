@@ -1,0 +1,10 @@
+{
+  "alwaysUpdateLinks": true,
+  "attachmentFolderPath": "./Attachments",
+  "promptDelete": false,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "Notes",
+  "autoPairMarkdown": true,
+  "strictLineBreaks": false,
+  "livePreview": true
+}

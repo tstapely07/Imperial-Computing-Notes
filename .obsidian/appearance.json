@@ -1,0 +1,7 @@
+{
+  "cssTheme": "Obsidian gruvbox",
+  "enabledCssSnippets": [
+    "clean-block-ids",
+    "clean-embeds"
+  ]
+}

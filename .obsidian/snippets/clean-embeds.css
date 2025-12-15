@@ -1,0 +1,4 @@
+/* Hides the filename header in embedded notes */
+.markdown-embed-title {
+  display: none !important;
+}
