@@ -11,13 +11,52 @@
             "id": "a066ebe069ab1e3e",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Index.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Index"
+            }
+          },
+          {
+            "id": "9ac728ba17452fd0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes/README.md.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "README.md"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -74,8 +113,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "d0d919f63ae27c33",
@@ -91,6 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Notes/README.md.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +139,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for README.md"
             }
           },
           {
@@ -109,11 +148,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Notes/README.md.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from README.md"
             }
           },
           {
@@ -179,8 +219,10 @@
       "bases:Create new base": false
     }
   },
-  "active": "a066ebe069ab1e3e",
+  "active": "9ac728ba17452fd0",
   "lastOpenFiles": [
+    "Index.md",
+    "Notes/README.md.md",
     "Useful/Callouts.md",
     "Notes/Adding Strictness.md",
     "Notes/Foldl.md",
@@ -206,8 +248,6 @@
     "Notes/Lists.md",
     "Notes/Multiple Parameters.md",
     "Notes/Any.md",
-    "Notes/Filters.md",
-    "Notes/40009 - Computing Practical 1.md",
     "Notes/Untitled 1.base",
     "Untitled",
     "Useful",
