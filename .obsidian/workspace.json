@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a066ebe069ab1e3e",
+            "id": "b527e3560be71279",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Index.md",
+                "file": "Notes/Adding Strictness.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,16 +28,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Index"
+              "title": "Adding Strictness"
             }
           },
           {
-            "id": "9ac728ba17452fd0",
+            "id": "c07bd5100bae7dcb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Notes/Maybe.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,11 +52,34 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "Maybe"
+            }
+          },
+          {
+            "id": "64827aa69f2eb487",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Useful/Callouts.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Callouts"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -75,7 +98,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byModifiedTimeReverse",
+                "sortOrder": "alphabetical",
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
@@ -129,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Todo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +162,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for README"
+              "title": "Backlinks for Todo"
             }
           },
           {
@@ -148,12 +171,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Notes/Parameterised Data Types.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from README"
+              "title": "Outgoing links from Parameterised Data Types"
             }
           },
           {
@@ -191,17 +214,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Types, Values, and Functions.md",
+                "file": "Notes/Adding Strictness.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Types, Values, and Functions"
+              "title": "Outline of Adding Strictness"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -219,35 +242,35 @@
       "bases:Create new base": false
     }
   },
-  "active": "9757dec4315d6ca2",
+  "active": "b527e3560be71279",
   "lastOpenFiles": [
-    "Index.md",
-    "README.md",
-    "Useful/Callouts.md",
-    "Notes/Adding Strictness.md",
-    "Notes/Foldl.md",
     "Todo.md",
-    "Notes/Memory Leaks.md",
-    "Notes/Tail Recursion.md",
-    "Notes/Haskell Base.base",
-    "Notes/Accumulating Parameters.md",
-    "Notes/Untitled.md",
-    "Notes/Haskell.md",
-    "Notes/Datatypes.md",
+    "Notes/Where Clauses.md",
     "Notes/Guards.md",
-    "Notes/Higher-Order Functions.md",
-    "Notes/Helper Functions.md",
-    "Notes/Recursive Functions.md",
-    "Notes/Foldr.md",
-    "Notes/Concat.md",
-    "Notes/Maps.md",
-    "Notes/All.md",
-    "Notes/Fold-Map Fusion.md",
+    "Notes/Trees.md",
+    "Notes/Parameterised Data Types.md",
+    "Notes/Maybe.md",
+    "Notes/Syntax Trees.md",
+    "Useful/Callouts.md",
+    "Notes/Either.md",
+    "Notes/Types, Values, and Functions.md",
+    "Notes/Pattern Matching on Lists.md",
+    "Notes/Pattern Matching.md",
+    "Templates/Templates.md",
+    "Templates/Basic.md",
+    "Templates/Note.md",
+    "Templates/Module.md",
+    "Templates/Lecture.md",
+    "Useful/Missing Notes.md",
+    "Notes/Newtypes.md",
+    "Notes/Ad-Hoc Polymorphism.md",
+    "Notes/Streams.md",
+    "Notes/Typeclasses.md",
+    "Notes/User-Defined Datatypes.md",
     "Notes/Strings.md",
-    "Notes/Function Composition (.).md",
-    "Notes/Lists.md",
-    "Notes/Multiple Parameters.md",
-    "Notes/Any.md",
+    "Notes/Laws of Equality.md",
+    "Notes/Halting Problem.md",
+    "Notes/Haskell Base.base",
     "Notes/Untitled 1.base",
     "Untitled",
     "Useful",

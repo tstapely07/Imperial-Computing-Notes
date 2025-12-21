@@ -22,7 +22,7 @@
         "name": "",
         "active": true,
         "type": "FILES",
-        "pattern": "Index.md",
+        "pattern": "index.md",
         "patternType": "STRICT"
       },
       {

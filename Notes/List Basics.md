@@ -26,8 +26,8 @@ Lists of lists are also permitted:
 ```
 
 Every type also has an empty list, such as `[] :: [Int]` and `[]: [Bool]`.
-`[]` is actually a [[Polymorphic Functions|polymorphic]] value - `[] :: forall a . [a]`.
-We could write `[]@Int :: [Int]`, like we did [[Polymorphic Functions#^0e8644|here]], but that is unnecessary.
+`[]` is actually a [[Parametric Polymorphism|polymorphic]] value - `[] :: forall a . [a]`.
+We could write `[]@Int :: [Int]`, like we did [[Parametric Polymorphism#^0e8644|here]], but that is unnecessary.
 
 Every list can be decomposed:
 ```Haskell

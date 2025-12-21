@@ -13,7 +13,11 @@ fact n
 	| n < 0 = error "error"
 	| otherwise = n * fact (n-1)
 ```
-Otherwise is equivalent to `true`, and is therefore used as a catch-all.
+Otherwise is **exactly equivalent** to `true`, and is therefore used as a catch-all.
+```Haskell
+otherwise :: Bool
+otherwise = True
+```
 
 > [!Warning]
 > Do not be tempted to write something like

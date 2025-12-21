@@ -34,6 +34,13 @@ head (x:xs) = x
 tail :: [a] -> [a]
 tail (x:xs) = xs
 ```
+
+^8e321b
+
 The `head` function extracts the first element of **any** list, while `tail` extracts everything else.
-The problem is that these two functions are not defined for the empty list, making them [[Pattern Matching#^51a9f1|partial functions]].
-Calling `head []` would cause a program to crash.
+>[!Warning]
+>The problem is that these two functions are not defined for the empty list, making them [[Pattern Matching#^51a9f1|partial functions]].
+>Calling `head []` would cause a program to crash.
+
+^b1207a
+

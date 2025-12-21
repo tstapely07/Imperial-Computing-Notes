@@ -5,7 +5,7 @@ tags:
   - haskell
   - M40009
 ---
-Haskell provides many datatypes, such as `Bool`, but datatypes can also be defined manually:
+Haskell provides many datatypes, such as `Bool`, but datatypes can also be defined manually: ^631f6d
 ```Haskell
 data Bool where
 	True :: Bool

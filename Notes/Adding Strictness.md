@@ -25,3 +25,11 @@ seq :: a -> b -> b
 
 To evaluate **and** return  `x` we can just write `seq x x`. 
 Haskell will remember `x` and not compute it twice.
+
+We can make parts of a [[User-Defined Datatypes|datatype]] **strict**:
+```Haskell
+data StrictCoords = Coords !Int !Int
+```
+>[!Info]
+>Here the two coordinates will be evaluated **strictly**.
+

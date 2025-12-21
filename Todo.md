@@ -1,3 +1,5 @@
 - [ ] let...in  
 - [ ] If..else
 - [ ] undefined
+- [ ] case...of
+- [ ] FIX QUARTZ.........

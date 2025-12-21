@@ -39,6 +39,11 @@ power n k
 		x = power n (k `div` 2)
 ```
 >[!Info]
+>The **order** of definitions in a `where` doesn't matter.
+
+>[!Warning]
 >The variables defined in a `where` clause are **only in scope** for the function clause that they are defined in.
+
+
 
 

@@ -4,7 +4,6 @@ tags:
   - first-year
   - haskell
   - M40009
-  - lecturers/jamie-willis
 ---
 So far, all the [[Types, Values, and Functions#^22b73f|functions]] we've seen have been monomorphic.
 They operate over fixed given types, such as `Int` and `Char`.
@@ -18,6 +17,9 @@ idInt  x = x
 idBool :: Bool -> Bool
 idBool x = x
 ```
+
+^2fc2b7
+
 These functions have different types, so they cannot be equal.
 However they seem to behave similarly.
 We can generalise them into a polymorphic function:
@@ -25,6 +27,7 @@ We can generalise them into a polymorphic function:
 id :: forall a . a -> a
 id x = x
 ```
+
 
 Now we could rewrite our original identity functions like this:
 ```Haskell
@@ -35,9 +38,10 @@ idBool :: Bool -> Bool
 idBool = id @Bool
 ```
 
+
 ^0e8644
 >[!Info]
->The `forall a`, and the `@Int` are usually optional, Haskell can normally figure them out.
+>The `forall a`, and the `@Int` are usually optional, Haskell can normally, but not always, figure them out.
 >
 
 Here are two more polymorphic functions:
@@ -71,4 +75,8 @@ This means it thinks the types `a` and `b` in the `where` clause are different t
 >```
 >This way, GHC knows that the `a` and `b` defined later  are the same thing.
 >Alternatively, we could have just removed the second type signature.
+
+>[!Tip]
+>Parametrically polymorphic functions always do the same thing regardless of the type of `a`. 
+>To give different types different implementations, we use [[Ad-Hoc Polymorphism|ad-hoc polymorphism]].
 

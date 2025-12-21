@@ -44,7 +44,7 @@ where
 ^67981f
 
 >[!Info]
->Note the use of [[Polymorphic Functions#^75baa4|forall]] to make this function type check.
+>Note the use of [[Parametric Polymorphism#^75baa4|forall]] to make this function type check.
 
 ^656de1
 # Fold-Map Fusion

@@ -29,7 +29,7 @@ length (x:xs) = 1 + length xs
 ^887d1b
 
 >[!Info]
->Length is [[Polymorphic Functions|polymorphic]], it works for a list of **any type**.
+>Length is [[Parametric Polymorphism|polymorphic]], it works for a list of **any type**.
 
 Here is a function two concatenate two lists:
 ```Haskell
