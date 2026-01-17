@@ -1,0 +1,7 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.tags.contains("#haskell")
+    sort: []

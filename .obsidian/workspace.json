@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "6fe25e29b8ed86c8",
+        "id": "169da083aa015c85",
         "type": "tabs",
         "children": [
           {
-            "id": "b527e3560be71279",
+            "id": "75cf0f1c952a6895",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Adding Strictness.md",
+                "file": "Notes/Row Echelon Form.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,58 +28,21 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Adding Strictness"
+              "title": "Row Echelon Form"
             }
           },
           {
-            "id": "c07bd5100bae7dcb",
+            "id": "5c1e9fa58b3c6c8d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notes/Maybe.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Maybe"
-            }
-          },
-          {
-            "id": "64827aa69f2eb487",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Useful/Callouts.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Callouts"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -111,7 +74,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "theorem",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -136,7 +99,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 416.50312423706055
   },
   "right": {
     "id": "d0d919f63ae27c33",
@@ -214,17 +177,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Adding Strictness.md",
+                "file": "Notes/Benchmarking.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Adding Strictness"
+              "title": "Outline of Benchmarking"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -242,45 +205,52 @@
       "bases:Create new base": false
     }
   },
-  "active": "b527e3560be71279",
+  "active": "5c1e9fa58b3c6c8d",
   "lastOpenFiles": [
-    "Todo.md",
-    "Notes/Where Clauses.md",
-    "Notes/Guards.md",
-    "Notes/Trees.md",
-    "Notes/Parameterised Data Types.md",
-    "Notes/Maybe.md",
-    "Notes/Syntax Trees.md",
-    "Useful/Callouts.md",
-    "Notes/Either.md",
-    "Notes/Types, Values, and Functions.md",
-    "Notes/Pattern Matching on Lists.md",
-    "Notes/Pattern Matching.md",
-    "Templates/Templates.md",
-    "Templates/Basic.md",
-    "Templates/Note.md",
-    "Templates/Module.md",
-    "Templates/Lecture.md",
+    "Notes/Graphs Topic List.base",
+    "Notes/Row Echelon Form.md",
+    "Notes/Gaussian Elimination.md",
+    "Notes/Inverse of a Matrix.md",
+    "Notes/Sparse Graph.md",
+    "Notes/Spanning Subgraphs.md",
     "Useful/Missing Notes.md",
-    "Notes/Newtypes.md",
-    "Notes/Ad-Hoc Polymorphism.md",
-    "Notes/Streams.md",
-    "Notes/Typeclasses.md",
-    "Notes/User-Defined Datatypes.md",
-    "Notes/Strings.md",
-    "Notes/Laws of Equality.md",
-    "Notes/Halting Problem.md",
-    "Notes/Haskell Base.base",
+    "Notes/Functions.md",
+    "index.md",
+    "Notes/40008 - Graphs and Algorithms.md",
+    "Notes/40005 - Introduction to Computer Architecture.md",
+    "Notes/40017 - Linear Algebra.md",
+    "Notes/Haskell/Haskell.md",
+    "Notes/Computer Architecture Topics.base",
+    "Notes/Haskell Topics.base",
+    "Notes/Linear Algebra Topics.base",
+    "Notes/40009 - Computing Practical 1.md",
+    "Notes/Haskell/Types, Values, and Functions.md",
+    "Notes/Bipartite Graphs.md",
+    "Notes/Attachments/Pasted image 20260116230518.png",
+    "Notes/Map Colouring.md",
+    "Notes/Attachments/Pasted image 20260116230238.png",
+    "Notes/Attachments/Pasted image 20260116230138.png",
+    "Notes/Dual Graph.md",
+    "Notes/Euler's Formula.md",
+    "Notes/Attachments/Pasted image 20260116223550.png",
+    "Notes/Attachments/Pasted image 20260116223218.png",
+    "Notes/Attachments/Pasted image 20260116223152.png",
+    "Notes/Attachments/Pasted image 20260116222934.png",
+    "Notes/Attachments/Pasted image 20260116175650.png",
+    "Notes/Planar Graphs.md",
+    "Notes/Homeomorphism.md",
+    "Notes/Attachments/Pasted image 20260116175324.png",
+    "Notes/Degrees.md",
+    "Notes/Attachments/Pasted image 20260116172757.png",
+    "Notes/Graph Automorphism.md",
+    "Notes/Graph Isomorphism.md",
+    "Notes/Subgraphs.md",
+    "Notes/Full (Induced) Subgraphs.md",
+    "Notes/Attachments",
+    "Notes/Haskell",
+    "Notes/Haskell/Haskell Base.base",
     "Notes/Untitled 1.base",
     "Untitled",
-    "Useful",
-    "Notes/Attachments/Pasted image 20251213000528.png",
-    "Notes/Attachments",
-    "Notes",
-    "Computing Practical 1/Attachments/Pasted image 20251212232408.png",
-    "Computing Practical 1/Attachments",
-    "Computing Practical 1",
-    "Templates",
-    "folder 1"
+    "Useful"
   ]
 }

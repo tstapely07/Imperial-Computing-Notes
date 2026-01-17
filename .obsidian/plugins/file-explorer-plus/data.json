@@ -36,14 +36,7 @@
         "name": "",
         "active": true,
         "type": "FILES",
-        "pattern": "Notes/40009 - Computing Practical 1.md",
-        "patternType": "STRICT"
-      },
-      {
-        "name": "",
-        "active": true,
-        "type": "FILES",
-        "pattern": "Notes/Haskell.md",
+        "pattern": "Notes/Haskell/Haskell.md",
         "patternType": "STRICT"
       }
     ],

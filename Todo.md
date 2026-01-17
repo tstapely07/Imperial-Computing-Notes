@@ -1,5 +1,3 @@
-- [ ] let...in  
-- [ ] If..else
-- [ ] undefined
-- [ ] case...of
-- [ ] FIX QUARTZ.........
+- [ ] ghci commands
+- [ ] alternatives - `<|>`
+- [ ] <- within guards?? screenshot on phone

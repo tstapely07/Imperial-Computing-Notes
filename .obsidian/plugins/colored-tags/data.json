@@ -11,11 +11,18 @@
   },
   "knownTags": {
     "admin": 1,
+    "definition": 2,
     "first-year": 2,
     "haskell": 3,
     "lecturers": 2,
+    "m40005": 4,
+    "m40008": 5,
     "m40009": 3,
+    "m40017": 4,
+    "lecturers/chiraag-lala": 1,
+    "lecturers/iain-phillips": 2,
     "lecturers/jamie-willis": 1,
+    "lecturers/luk-wayne": 2,
     "lecturers/matt-collison": 2,
     "lecturers/nick-wu": 1
   },
