@@ -13,7 +13,7 @@ Here, the cube graph is **planar**, even though the first drawing of it has cros
 * ![[Pasted image 20260116172454.png|200]]
 
 Here are two **non-planar** graphs, with our best attempts at avoiding crossing arcs:
-* $K_5$ is the **complete graph** on $5$ [[Nodes|nodes]]:
+* $K_5$ is the [[Complete Graph|complete graph]] on $5$ [[Nodes|nodes]]:
 	* ![[Pasted image 20260116172651.png|200]]
 	* ![[Pasted image 20260116172703.png|200]]
 * $K_{3,3}$ is the **complete bipartite graph** on 2sets of 3 nodes: ^93d837

@@ -6,7 +6,7 @@ tags:
   - haskell
 ---
 **Maps** are a close relative of [[Sets|sets]]. While a `Set` is just a collection of **keys**. A `Map` associates a **key** with a **value**.
-Like a `Set`, it is typically implemented as a **balanced binary search [[Trees|tree]]**, so lookups are **very fast**.
+Like a `Set`, it is typically implemented as a **balanced binary search [[Trees - Haskell|tree]]**, so lookups are **very fast**.
 
 Normally, we [[Imports|import]] the `Map` [[Modules|module]] like this:
 ```Haskell

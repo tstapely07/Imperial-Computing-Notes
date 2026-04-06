@@ -10,4 +10,4 @@ They include:
 * [[Lists]]
 * [[Maps (Container)]]
 * [[Sets]]
-* [[Trees]]
+* [[Trees - Haskell]]

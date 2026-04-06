@@ -4,7 +4,7 @@ tags:
   - M40017
   - first-year
 ---
-**Reduced Row Echelon Form (RREF)** is similar to [[Row Echelon Form|row echelon form]], except:
+**Reduced Row Echelon Form (RREF)** is similar to [[Row Echelon Form (REF)|row echelon form]], except:
 * In columns containing [[Pivot|pivots]], the pivot should be the **only non-zero** entry.
 * The [[Pivot|pivot]] of each **row** is $1$.
 

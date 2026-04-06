@@ -5,13 +5,13 @@ tags:
   - haskell
   - M40009
 ---
-We've seen [[Trees|trees]], and their `grow` function to turn a [[Lists|list]] into a tree:
-![[Trees#^42cf5e]]
+We've seen [[Trees - Haskell|trees]], and their `grow` function to turn a [[Lists|list]] into a tree:
+![[Trees - Haskell#^42cf5e]]
 However, when the list is **sorted**, it will produce a **biased tree** that only grows in **one direction**.
 This degrades **binary tree search** to `O(n)`.
 The solution is to implement trees that **balance themselves**.
 This is too complex to do ourselves, but Haskell defines a `Set` to serve this purpose.
-Like in [[400018 - Discrete Mathematics, Logic|discrete maths]], sets contain **no duplicate elements**.
+Like in [[40018 - Discrete Mathematics, Logic|discrete maths]], sets contain **no duplicate elements**.
 
 Normally, we [[Imports|import]] the `Set` [[Modules|module]] like this:
 ```Haskell
@@ -81,7 +81,7 @@ isProperSubsetOf :: Ord a => Set a -> Set a -> Bool
 * [[Foldr]]
 * [[Foldl]]
 * [[Filter]]
-* [[Partition]]
+* [[Partition (Haskell)]]
 * [[Map (Function)]]
 >[!Warning]
 >`Set.map` can be dangerous.
@@ -111,7 +111,7 @@ Firstly, we have `nub`:
 nub :: Eq a => [a] -> [a]
 ```
 `nub` removes duplicates from a [[Lists|list]].
-It does it in `O(n^2)` [[Time Complexity|time complexity]].
+It does it in `O(n^2)` **time complexity**.
 
 When we have **ordered data** we can do better.
 `nubOrd` can be [[Imports|imported]] from `Data.Containers.ListUtils`:

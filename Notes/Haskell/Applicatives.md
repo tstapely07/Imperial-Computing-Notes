@@ -18,7 +18,7 @@ Or more **idiomatically** with a [[List Comprehensions|list comprehension]]:
 addList xs ys = [x + y | x <- xs, y <- ys]
 ```
 >[!Info]
->This implements [[Cartesian Product|cartesian product]].
+>This implements **cartesian product**.
 >>[!Example]
 >>```Haskell
 >>addList [1,2,3] [100,200,300] = [101,201,301,102,202,302,103,203,303]

@@ -1,3 +1,0 @@
-- [ ] ghci commands
-- [ ] alternatives - `<|>`
-- [ ] <- within guards?? screenshot on phone

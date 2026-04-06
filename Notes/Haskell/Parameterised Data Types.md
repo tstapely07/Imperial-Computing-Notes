@@ -10,5 +10,5 @@ tags:
 They include:
 * [[Maybe]] - `data Maybe a = Nothing | Just a`.
 * [[Either]] - `data Either a b = Left a | Right b`.
-* [[Trees]] - trees can have various shapes.
+* [[Trees - Haskell]] - trees can have various shapes.
 * [[Lists]] - `data [a] = [] | a : [a]`

@@ -18,3 +18,10 @@ Each arc contributes **twice** to then total of all the degrees - once for each 
 >The number of **nodes** with **odd degree** is even:
 >* This can be shown by **contradiction**, if it was **odd**, then the **sum** would be **odd** - a **contradiction**.
 
+In a [[Directed Graphs|directed graph]], we must split the **degrees** of  **node** into the **indegrees** and **outdegrees**.
+
+> [!Abstract] Definition
+> The **indegree** of a **node** $x$ is the number of **arcs** entering $x$.
+
+> [!Abstract] Definition
+> The **outdegree** of a **node** $x$ is the number of **arcs** leaving $x$.

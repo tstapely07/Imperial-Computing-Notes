@@ -29,7 +29,7 @@
         "name": "",
         "active": true,
         "type": "FILES",
-        "pattern": "Todo.md",
+        "pattern": "To-Do.md",
         "patternType": "STRICT"
       },
       {

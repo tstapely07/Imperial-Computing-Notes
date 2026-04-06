@@ -1,0 +1,9 @@
+{
+  "statusBar": [],
+  "altBar": [],
+  "countComments": false,
+  "collectStats": true,
+  "displaySectionCounts": false,
+  "pageWords": 300,
+  "statsPath": ".obsidian/vault-stats.json"
+}

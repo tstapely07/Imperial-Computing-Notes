@@ -1,0 +1,74 @@
+# First Half of Easter
+- [ ] Computer Systems
+	- [ ] Make course notes
+	- [ ] Understand microprocessor part
+- [ ] Computer Architecture
+	- [ ] Make part 1 notes
+	- [ ] Finish part 2 lectures
+	- [ ] Make part 2 assembly notes
+	- [ ] Make part 2 cache notes
+- [ ] Databases
+	- [ ] Make relational algebra notes
+	- [ ] Make SQL notes
+	- [ ] Make Datalog notes
+	- [ ] Make ER-modelling notes
+	- [ ] Make normalisation notes
+	- [ ] Make concurrency notes
+- [ ] Graphs and algorithms
+	- [ ] Finish week 8 notes
+	- [ ] Week 9 notes
+	- [ ] Week 10 notes
+- [ ] Kotlin
+	- [ ] Review interim test when results get published
+- [ ] Calculus
+	- [ ] Make notes for whole course
+- [ ] Linear Algebra
+	- [ ] Lecture 13 notes
+	- [ ] Lecture 14 notes
+	- [ ] Lecture 15 notes
+	- [ ] Lecture 16 notes
+	- [ ] Lecture 17 notes
+- [ ] Discrete maths
+	- [ ] Polish courses notes
+	- [ ] Understand Peano arithmetic
+	- [ ] Understand set cardinality
+- [ ] Logic
+	- [ ] Make course notes focusing on definitions and notation
+- [ ] Reasoning
+	- [ ] Make part 1 notes
+	- [ ] Finish part 2 lectures
+	- [ ] Make part 2 notes
+# Second Half of Easter
+- [ ] Computer Systems
+	- [ ] Tutorial sheets
+	- [ ] Past papers
+- [ ] Computer Architecture
+	- [ ] Tutorial sheets
+	- [ ] Past papers
+- [ ] Databases
+	- [ ] Course worksheets
+	- [ ] Past papers
+- [ ] Graphs and algorithms
+	- [ ] Optional PMT questions
+	- [ ] Past papers
+- [ ] Kotlin
+	- [ ] Java past papers 
+- [ ] Calculus
+	- [ ] Optional MMT questions
+	- [ ] Past papers
+- [ ] Linear Algebra
+	- [ ] Optional MMT questions
+	- [ ] Daily EdStem question
+	- [ ] Past papers
+- [ ] Discrete maths
+	- [ ] Optional PMT questions
+	- [ ] Slides questions
+	- [ ] Past papers
+- [ ] Logic
+	- [ ] Optional PMT questions
+	- [ ] Tutorial sheets
+	- [ ] Past papers
+- [ ] Reasoning
+	- [ ] Optional PMT questions
+	- [ ] Tutorial sheets
+	- [ ] Past papers

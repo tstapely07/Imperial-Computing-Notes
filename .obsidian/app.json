@@ -6,5 +6,12 @@
   "newFileFolderPath": "Notes",
   "autoPairMarkdown": true,
   "strictLineBreaks": false,
-  "livePreview": true
+  "livePreview": true,
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  }
 }

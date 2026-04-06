@@ -10,7 +10,7 @@ $$A\overrightarrow{x}=I\overrightarrow{b}$$
 
 If we carry out [[Gaussian Elimination|Gaussian elimination]], by applying the **EROs**, we reach a form:
 $$A'\overrightarrow{x}=M\overrightarrow{b}$$
-Where $A'$ is in [[Reduced Row Echelon Form|RREF]]. 
+Where $A'$ is in [[Reduced Row Echelon Form (RREF)|RREF]]. 
 If $A'$ is the **identity matrix**, then we in fact have $I\overrightarrow{x}=M\overrightarrow{b}$, or $\overrightarrow{x}=M\overrightarrow{b}$.
 From here it is clear to see that $M$ represents the **inverse matrix**.
 

@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "169da083aa015c85",
+        "id": "dd25ef93c8b300c7",
         "type": "tabs",
         "children": [
           {
-            "id": "75cf0f1c952a6895",
+            "id": "183c78512c41e8d9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Row Echelon Form.md",
+                "file": "Notes/SQL Data Definition Language (DDL).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,21 +28,275 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Row Echelon Form"
+              "title": "SQL Data Definition Language (DDL)"
             }
           },
           {
-            "id": "5c1e9fa58b3c6c8d",
+            "id": "3cbde1a0392ed188",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Notes/SQL Keys.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "SQL Keys"
+            }
+          },
+          {
+            "id": "503390de15e1aca2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes/SQL Data Manipulation Language (DML).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "SQL Data Manipulation Language (DML)"
+            }
+          },
+          {
+            "id": "1030f3b2d8198c9a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes/SQL Null.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "SQL Null"
+            }
+          },
+          {
+            "id": "0f704db5455ab63a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes/SQL Select.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "SQL Select"
+            }
+          },
+          {
+            "id": "7060fad8057e81a4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes/SQL Joins.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "SQL Joins"
+            }
+          },
+          {
+            "id": "fcbaac0875dcaa17",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes/Derived Operators.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Derived Operators"
+            }
+          },
+          {
+            "id": "922c9cdad6c23b84",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes/SQL Set Operators.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "SQL Set Operators"
+            }
+          },
+          {
+            "id": "0fdf0ffa82e5a7be",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes/SQL With.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "SQL With"
+            }
+          },
+          {
+            "id": "0dcf558edc42e416",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes/SQL Bags and Sets.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "SQL Bags and Sets"
+            }
+          },
+          {
+            "id": "024fc5f4abe2aae3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes/SQL Subqueries.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "SQL Subqueries"
+            }
+          },
+          {
+            "id": "69672adbde6ecef3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes/Universe of Discourse (UoD).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Universe of Discourse (UoD)"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 11
       }
     ],
     "direction": "vertical"
@@ -74,7 +328,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "theorem",
+                "query": "monotonic",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -99,7 +353,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 416.50312423706055
+    "width": 416.50312423706055,
+    "collapsed": true
   },
   "right": {
     "id": "d0d919f63ae27c33",
@@ -115,7 +370,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Todo.md",
+                "file": "Notes/Linear Mapping.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +380,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Todo"
+              "title": "Backlinks for Linear Mapping"
             }
           },
           {
@@ -134,12 +389,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Parameterised Data Types.md",
+                "file": "Notes/Merge Sort.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Parameterised Data Types"
+              "title": "Outgoing links from Merge Sort"
             }
           },
           {
@@ -177,17 +432,27 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Benchmarking.md",
+                "file": "Notes/Universe of Discourse (UoD).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Benchmarking"
+              "title": "Outline of Universe of Discourse (UoD)"
+            }
+          },
+          {
+            "id": "81d577782988ec61",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -196,61 +461,64 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "graph:Open graph view": false,
       "switcher:Open quick switcher": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "publish:Publish changes...": false
     }
   },
-  "active": "5c1e9fa58b3c6c8d",
+  "active": "69672adbde6ecef3",
   "lastOpenFiles": [
-    "Notes/Graphs Topic List.base",
-    "Notes/Row Echelon Form.md",
-    "Notes/Gaussian Elimination.md",
-    "Notes/Inverse of a Matrix.md",
-    "Notes/Sparse Graph.md",
-    "Notes/Spanning Subgraphs.md",
-    "Useful/Missing Notes.md",
-    "Notes/Functions.md",
-    "index.md",
-    "Notes/40008 - Graphs and Algorithms.md",
-    "Notes/40005 - Introduction to Computer Architecture.md",
-    "Notes/40017 - Linear Algebra.md",
-    "Notes/Haskell/Haskell.md",
+    "Notes/Universe of Discourse (UoD).md",
+    "Notes/SQL Null.md",
+    "Notes/SQL Data Manipulation Language (DML).md",
+    "Notes/SQL Subqueries.md",
+    "Notes/Attachments/Pasted image 20260406111058.png",
+    "Notes/Attachments/Pasted image 20260406110745.png",
+    "Notes/Attachments/Pasted image 20260406110724.png",
+    "Notes/Attachments/Pasted image 20260406110458.png",
+    "Notes/Derived Operators.md",
+    "Notes/SQL Set Operators.md",
+    "Notes/SQL Bags and Sets.md",
+    "Notes/SQL With.md",
+    "Notes/SQL Aliases.md",
+    "Notes/Attachments/Pasted image 20260406101319.png",
+    "Notes/Attachments/Pasted image 20260406101305.png",
+    "Notes/SQL Joins.md",
+    "Notes/Attachments/Pasted image 20260406100218.png",
+    "Notes/SQL Select.md",
+    "Notes/SQL Deleting.md",
+    "Notes/SQL Updating.md",
+    "Notes/SQL Inserting.md",
+    "Notes/SQL Keys.md",
+    "Notes/Attachments/Pasted image 20260406093223.png",
+    "Notes/SQL Data Definition Language (DDL).md",
+    "Notes/Attachments/Pasted image 20260406092515.png",
+    "Notes/Attachments/Pasted image 20260406092445.png",
+    "Notes/Example Relational Schema.md",
+    "Notes/Karnaugh Map.md",
+    "Notes/Circuit Minimisation.md",
+    "Notes/Canonical Forms.md",
+    "Notes/Minterms and Maxterms.md",
+    "Notes/Combinatorial Circuits.md",
+    "Notes/Multiplexer.md",
+    "Notes/Logic Gates.md",
+    "Notes/Boolean Algebra.md",
+    "Notes/Floating Point.md",
+    "Notes/Calculus Topics.base",
     "Notes/Computer Architecture Topics.base",
+    "Notes/Untitled.base",
     "Notes/Haskell Topics.base",
+    "Notes/Graphs Topic List.base",
     "Notes/Linear Algebra Topics.base",
-    "Notes/40009 - Computing Practical 1.md",
-    "Notes/Haskell/Types, Values, and Functions.md",
-    "Notes/Bipartite Graphs.md",
-    "Notes/Attachments/Pasted image 20260116230518.png",
-    "Notes/Map Colouring.md",
-    "Notes/Attachments/Pasted image 20260116230238.png",
-    "Notes/Attachments/Pasted image 20260116230138.png",
-    "Notes/Dual Graph.md",
-    "Notes/Euler's Formula.md",
-    "Notes/Attachments/Pasted image 20260116223550.png",
-    "Notes/Attachments/Pasted image 20260116223218.png",
-    "Notes/Attachments/Pasted image 20260116223152.png",
-    "Notes/Attachments/Pasted image 20260116222934.png",
-    "Notes/Attachments/Pasted image 20260116175650.png",
-    "Notes/Planar Graphs.md",
-    "Notes/Homeomorphism.md",
-    "Notes/Attachments/Pasted image 20260116175324.png",
-    "Notes/Degrees.md",
-    "Notes/Attachments/Pasted image 20260116172757.png",
-    "Notes/Graph Automorphism.md",
-    "Notes/Graph Isomorphism.md",
-    "Notes/Subgraphs.md",
-    "Notes/Full (Induced) Subgraphs.md",
     "Notes/Attachments",
     "Notes/Haskell",
     "Notes/Haskell/Haskell Base.base",
-    "Notes/Untitled 1.base",
-    "Untitled",
-    "Useful"
+    "Untitled"
   ]
 }

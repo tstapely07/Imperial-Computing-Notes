@@ -3,6 +3,7 @@ tags:
   - first-year
   - "#M40017"
   - "#lecturers/chiraag-lala"
+  - "#admin"
 ---
 # Lecture Times
 * Monday 11-1

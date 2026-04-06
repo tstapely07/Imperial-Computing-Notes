@@ -29,8 +29,8 @@ We can make some observations of what we can do **without changing** the **solut
 >**Any combination** of these **EROs** does not change the solution space:
 >* If $A\overrightarrow{x}=\overrightarrow{b}\rightarrow EROs\rightarrow C\overrightarrow{x}=\overrightarrow{d}$ then the solutions of $A\overrightarrow{x}=\overrightarrow{b}$ and $C\overrightarrow{x}=\overrightarrow{d}$ are the same.
 
-Using these **EROs** we aim to simplify a matrix to [[Row Echelon Form|row echelon form (REF)]].
-We can then go a step further, to [[Reduced Row Echelon Form|reduced row echelon form (RREF)]].
+Using these **EROs** we aim to simplify a matrix to [[Row Echelon Form (REF)|row echelon form (REF)]].
+We can then go a step further, to [[Reduced Row Echelon Form (RREF)|reduced row echelon form (RREF)]].
 
 Let's work through an **example** [[Systems of Linear Equations||system of linear equations]]:
 $$ \begin{gather}
@@ -47,7 +47,7 @@ $$\left[
 \end{array}
 \right]
 $$
-Now let's apply some of the **EROs** to reach [[Row Echelon Form|REF]]:
+Now let's apply some of the **EROs** to reach [[Row Echelon Form (REF)|REF]]:
 $$
 \begin{gather}
 R_1 \leftrightarrow R_2  \\
@@ -80,7 +80,7 @@ R_3 \rightarrow R_3-5R-2 \\
 \end{gather}
 $$
 **REF** has now been reached. 
-Let's go further, to [[Reduced Row Echelon Form|RREF]]:
+Let's go further, to [[Reduced Row Echelon Form (RREF)|RREF]]:
 $$
 \begin{gather}
 R_3 \rightarrow R_3 \times -\frac{1}{10} \\

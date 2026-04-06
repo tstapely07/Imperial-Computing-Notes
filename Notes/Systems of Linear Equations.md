@@ -44,12 +44,12 @@ This is the way we will represent **systems of linear equations**.
 >Here, setting $\overrightarrow{x}=\overrightarrow{0}$ will always be a solution.
 
 The **primary objective** of systems of linear equations, **before** all their applications, is to **find their solutions**, so let's work through some examples.
-Our general method to solve them will be [[Gaussian Elimination|Guassian elimination]].
+Our general method to solve them will be [[Gaussian Elimination|Gaussian elimination]].
 >[!Example]
 >When $m=n$, such as:
 >$3x=4$ , where $m=1$ and $n=1$
 >There is a **single unique solution**, in this case $x=\frac{4}{3}$.
->This is true as long as the equations are **linearly independent**.
+>This is true as long as the equations are [[Linear Independence|linearly independent]].
 
 >[!Example]
 >How about when $m=2$, $n=1$, such as:
@@ -57,7 +57,7 @@ Our general method to solve them will be [[Gaussian Elimination|Guassian elimina
 >&3x=4 \\
 >&4x=5 \end{align}\right.$$
 >Here there are **no solutions**.
->In general, if $m>n$, and the equations are **linearly independent**, there are no solutions.
+>In general, if $m>n$, and the equations are [[Linear Independence|linearly independent]], there are no solutions.
 
 >[!Example]
 >How about here:
@@ -70,17 +70,28 @@ Our general method to solve them will be [[Gaussian Elimination|Guassian elimina
 >[!Example]
 >Consider $x_1+2x_2=3$, i.e. $m=1$, $n=2$.
 >Two **trivial solutions** can be found, by setting $x_1=0$, and obtaining $x_2=3/2$, and inversely setting $x_2=0$, and obtaining $x_1=3$
->In the case where $m<n$, and again, the equations are **linearly independent** there are **infinitely many solutions**.
+>In the case where $m<n$, and again, the equations are [[Linear Independence|linearly independent]] there are **infinitely many solutions**.
 >
 >The proof to this is simple, by **contradiction**, since we can **always** obtain **another** solution by taking the **average** of two known solutions, for example, we could obtain a third solution to our example, where $x_1=\frac{3}{2}$ and $x_2=\frac{3}{4}$.
 >
->The solutions lie on an $(m-n)$ dimensional [[Affine Space|affine space]] in $\mathbb{R}^n$.
+>The solutions lie on an $(n-m)$ dimensional [[Affine Space|affine space]] in $\mathbb{R}^n$.
 
 >[!Info]
->To summarise, for a set of **linearly independent equations**:
+>To summarise, for a set of [[Linear Independence|linearly independent]] **equations**:
 >* $m = n$ - **one solution**
 >* $m > n$ - **no solutions**
 >* $m < n$ - **infinitely many solutions**
+
+>[!Info]
+>There is an equivalence between a **system of linear equations**, a [[Vector Subspaces|subspace]], and a [[Vector Span|span of a collection of vectors]]:
+>$$\begin{gather}
+>\text{Set of all solutions of } A\overrightarrow{x} = \overrightarrow{0} \\
+>\Longleftrightarrow \\
+>\text{A subspace of }\mathbb{R}^n \\
+>\Longleftrightarrow \\
+>\text{A span of a collection of vectors in } \mathbb{R}^n
+>\end{gather}$$ 
+
 
 
 

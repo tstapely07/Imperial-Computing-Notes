@@ -3,6 +3,7 @@ tags:
   - first-year
   - "#lecturers/luk-wayne"
   - "#M40005"
+  - "#admin"
 ---
 # Lecture Times
 * Tuesday 2-4

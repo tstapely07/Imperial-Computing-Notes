@@ -16,9 +16,9 @@ map f . map g = map (f . g)
 These tell us that  `map` cannot change the **size** of a list.
 It also cannot change the **ordering** of the elements.
 
-We can define a `map` function for **other data structures**, like [[Trees|trees]].
+We can define a `map` function for **other data structures**, like [[Trees - Haskell|trees]].
 For example for:
-![[Trees#^3e68b5]]
+![[Trees - Haskell#^3e68b5]]
 We could write:
 ```Haskell
 mapTree :: (a -> b) -> Tree a -> Tree b

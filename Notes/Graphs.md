@@ -18,8 +18,7 @@ tags:
 Graphs may contain **parallel arcs**, **loops**, and **disconnected components**:
 * ![[Pasted image 20260115114509.png|300]]
 
-> [!Abstract] Definition
-> A graph is **simple** if it has no **parallel arcs** and no **loops**.
+![[Simple Graphs]]
 
 **Parallel arcs** model multiple connections, for **robustness** against **failures** of **arcs**.
 

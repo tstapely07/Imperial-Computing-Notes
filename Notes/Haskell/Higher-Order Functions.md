@@ -33,4 +33,4 @@ A higher order is a **function** that that takes in **a function as an argument*
 [[Scanl]]
 
 # Partition
-[[Partition]]
+[[Partition (Haskell)]]

@@ -6,6 +6,7 @@ tags:
   - "#lecturers/jamie-willis"
   - "#lecturers/nick-wu"
   - "#haskell"
+  - "#admin"
 ---
 
 > [!Summary]

@@ -5,6 +5,7 @@ tags:
   - "#lecturers/matt-collison"
   - "#M40009"
   - "#first-year"
+  - "#admin"
 ---
 # Languages Studied
 [[Haskell]]
