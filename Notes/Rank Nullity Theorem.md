@@ -7,5 +7,5 @@ tags:
 The **Rank Nullity Theorem** states that:
 $$\operatorname{Rank}(M)+\operatorname{Nullity}(M)=\text{number of columns in }M=\text{dimension of the domain space}$$
 
-This means that, for some linear map $\phi:V\to W$:
+This means that, for some [[Linear Mapping|linear mapping]] $\phi:V\to W$:
 $$\operatorname{dim}(\operatorname{Im}(\Phi)) + \operatorname{dim}(\operatorname{Ker}(\Phi)) = \operatorname{dim}(V)$$

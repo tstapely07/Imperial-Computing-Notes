@@ -1,0 +1,24 @@
+- [x] Finish Calculus
+	- [x] 4/11
+	- [x] 6/11
+	- [x] 11/11
+	- [x] 12/11
+	- [x] 18/11
+	- [x] 2/12
+	- [x] 4/12
+	- [x] 8/12
+	- [x] 9/12
+- [ ] Finish Systems 
+	- [ ] RAM
+	- [ ] 32-bit processor
+- [ ] Finish Databases
+	- [x] Datalog
+	- [x] ER Modelling
+	- [ ] Normalisation
+	- [ ] Concurrency
+- [ ] Finish Graphs
+	- [ ] Reduction
+	- [ ] NP-Completeness
+	- [ ] TSP
+	- [ ] Metric TSP
+	- [ ] Vehicle Routing

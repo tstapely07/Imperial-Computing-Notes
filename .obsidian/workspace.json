@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "dd25ef93c8b300c7",
+        "id": "65a65f83bb8919c0",
         "type": "tabs",
         "children": [
           {
-            "id": "183c78512c41e8d9",
+            "id": "9f4ab79949a370ea",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/SQL Data Definition Language (DDL).md",
+                "file": "Notes/Semi-Structured Proofs.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,16 +28,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "SQL Data Definition Language (DDL)"
+              "title": "Semi-Structured Proofs"
             }
           },
           {
-            "id": "3cbde1a0392ed188",
+            "id": "cec4d017fa0ae14b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/SQL Keys.md",
+                "file": "Notes/Mathematical Induction.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,16 +52,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "SQL Keys"
+              "title": "Mathematical Induction"
             }
           },
           {
-            "id": "503390de15e1aca2",
+            "id": "716ce0cbb74a6298",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/SQL Data Manipulation Language (DML).md",
+                "file": "Notes/Strong Induction.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,227 +76,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "SQL Data Manipulation Language (DML)"
-            }
-          },
-          {
-            "id": "1030f3b2d8198c9a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notes/SQL Null.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "SQL Null"
-            }
-          },
-          {
-            "id": "0f704db5455ab63a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notes/SQL Select.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "SQL Select"
-            }
-          },
-          {
-            "id": "7060fad8057e81a4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notes/SQL Joins.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "SQL Joins"
-            }
-          },
-          {
-            "id": "fcbaac0875dcaa17",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notes/Derived Operators.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Derived Operators"
-            }
-          },
-          {
-            "id": "922c9cdad6c23b84",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notes/SQL Set Operators.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "SQL Set Operators"
-            }
-          },
-          {
-            "id": "0fdf0ffa82e5a7be",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notes/SQL With.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "SQL With"
-            }
-          },
-          {
-            "id": "0dcf558edc42e416",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notes/SQL Bags and Sets.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "SQL Bags and Sets"
-            }
-          },
-          {
-            "id": "024fc5f4abe2aae3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notes/SQL Subqueries.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "SQL Subqueries"
-            }
-          },
-          {
-            "id": "69672adbde6ecef3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notes/Universe of Discourse (UoD).md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Universe of Discourse (UoD)"
+              "title": "Strong Induction"
             }
           }
         ],
-        "currentTab": 11
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -328,12 +112,12 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "monotonic",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
-                "sortOrder": "alphabetical"
+                "sortOrder": "byModifiedTime"
               },
               "icon": "lucide-search",
               "title": "Search"
@@ -349,11 +133,12 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 416.50312423706055,
+    "width": 201.50247192382812,
     "collapsed": true
   },
   "right": {
@@ -370,9 +155,9 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Linear Mapping.md",
-                "collapseAll": false,
-                "extraContext": false,
+                "file": "Notes/32-bit Processor.md",
+                "collapseAll": true,
+                "extraContext": true,
                 "sortOrder": "alphabetical",
                 "showSearch": true,
                 "searchQuery": "",
@@ -380,7 +165,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Linear Mapping"
+              "title": "Backlinks for 32-bit Processor"
             }
           },
           {
@@ -389,12 +174,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Merge Sort.md",
+                "file": "Notes/32-bit Processor.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Merge Sort"
+              "title": "Outgoing links from 32-bit Processor"
             }
           },
           {
@@ -432,13 +217,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Universe of Discourse (UoD).md",
+                "file": "Notes/Registers.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Universe of Discourse (UoD)"
+              "title": "Outline of Registers"
             }
           },
           {
@@ -452,7 +237,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -468,57 +253,55 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "publish:Publish changes...": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "69672adbde6ecef3",
+  "active": "716ce0cbb74a6298",
   "lastOpenFiles": [
-    "Notes/Universe of Discourse (UoD).md",
-    "Notes/SQL Null.md",
-    "Notes/SQL Data Manipulation Language (DML).md",
-    "Notes/SQL Subqueries.md",
-    "Notes/Attachments/Pasted image 20260406111058.png",
-    "Notes/Attachments/Pasted image 20260406110745.png",
-    "Notes/Attachments/Pasted image 20260406110724.png",
-    "Notes/Attachments/Pasted image 20260406110458.png",
-    "Notes/Derived Operators.md",
-    "Notes/SQL Set Operators.md",
-    "Notes/SQL Bags and Sets.md",
-    "Notes/SQL With.md",
-    "Notes/SQL Aliases.md",
-    "Notes/Attachments/Pasted image 20260406101319.png",
-    "Notes/Attachments/Pasted image 20260406101305.png",
-    "Notes/SQL Joins.md",
-    "Notes/Attachments/Pasted image 20260406100218.png",
-    "Notes/SQL Select.md",
-    "Notes/SQL Deleting.md",
-    "Notes/SQL Updating.md",
-    "Notes/SQL Inserting.md",
-    "Notes/SQL Keys.md",
-    "Notes/Attachments/Pasted image 20260406093223.png",
-    "Notes/SQL Data Definition Language (DDL).md",
-    "Notes/Attachments/Pasted image 20260406092515.png",
-    "Notes/Attachments/Pasted image 20260406092445.png",
-    "Notes/Example Relational Schema.md",
-    "Notes/Karnaugh Map.md",
-    "Notes/Circuit Minimisation.md",
-    "Notes/Canonical Forms.md",
-    "Notes/Minterms and Maxterms.md",
+    "Notes/Mathematical Induction.md",
+    "Notes/Strong Induction.md",
+    "Notes/Semi-Structured Proofs.md",
+    "Notes/Attachments/Pasted image 20260417132155.png",
+    "Notes/Attachments/Pasted image 20260417132138.png",
+    "Notes/Attachments/Pasted image 20260417132121.png",
+    "Notes/Attachments/Pasted image 20260417132120.png",
+    "Notes/Attachments/Pasted image 20260417132105.png",
+    "Notes/Attachments/Pasted image 20260417131936.png",
+    "Notes/Attachments/Pasted image 20260417131914.png",
+    "Notes/Attachments/Pasted image 20260417130532.png",
+    "Notes/Attachments/Pasted image 20260417130514.png",
+    "Notes/Attachments/Pasted image 20260417130421.png",
+    "Notes/Reasoning About Programs Coursework Answers.md",
+    "Notes/Microsequencer.md",
+    "Notes/Exceptions.md",
     "Notes/Combinatorial Circuits.md",
-    "Notes/Multiplexer.md",
-    "Notes/Logic Gates.md",
-    "Notes/Boolean Algebra.md",
-    "Notes/Floating Point.md",
-    "Notes/Calculus Topics.base",
+    "Notes/32-bit Processor.md",
+    "Notes/Circuit Minimisation.md",
+    "Notes/Finite State Machines.md",
+    "Notes/Half Adder.md",
+    "Notes/Manual Processor.md",
+    "Notes/Static RAM.md",
+    "Notes/Synchronous Circuits.md",
+    "Notes/Arithmetic and Logic Unit (ALU) (Architecture).md",
+    "Notes/Multi-Cycle Datapath.md",
+    "Notes/Connecting RAM to a Processor.md",
+    "Notes/Datapath.md",
+    "Notes/RISC-V Architecture.md",
+    "Notes/Absolute Value Comparison Test.md",
+    "Notes/Untitled 1.md",
+    "Notes/Untitled 2.md",
+    "Notes/RISC-V Memory.md",
+    "Notes/Haskell/Memory Leaks.md",
+    "Notes/Relational Algebra Equivalences.md",
     "Notes/Computer Architecture Topics.base",
-    "Notes/Untitled.base",
+    "Notes/Databases Topics.base",
+    "Notes/Computer Systems Topics.base",
+    "graph.mmd",
+    "Notes/Calculus Topics.base",
     "Notes/Haskell Topics.base",
     "Notes/Graphs Topic List.base",
     "Notes/Linear Algebra Topics.base",
     "Notes/Attachments",
-    "Notes/Haskell",
-    "Notes/Haskell/Haskell Base.base",
-    "Untitled"
+    "Notes/Haskell"
   ]
 }

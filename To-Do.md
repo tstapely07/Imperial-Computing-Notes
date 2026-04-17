@@ -1,27 +1,27 @@
 # First Half of Easter
-- [ ] Computer Systems
-	- [ ] Make course notes
-	- [ ] Understand microprocessor part
+- [x] Computer Systems
+	- [x] Make course notes
+	- [x] Understand microprocessor part
 - [ ] Computer Architecture
 	- [ ] Make part 1 notes
 	- [ ] Finish part 2 lectures
 	- [ ] Make part 2 assembly notes
 	- [ ] Make part 2 cache notes
 - [ ] Databases
-	- [ ] Make relational algebra notes
-	- [ ] Make SQL notes
-	- [ ] Make Datalog notes
-	- [ ] Make ER-modelling notes
+	- [x] Make relational algebra notes
+	- [x] Make SQL notes
+	- [x] Make Datalog notes
+	- [x] Make ER-modelling notes
 	- [ ] Make normalisation notes
 	- [ ] Make concurrency notes
-- [ ] Graphs and algorithms
-	- [ ] Finish week 8 notes
-	- [ ] Week 9 notes
-	- [ ] Week 10 notes
+- [x] Graphs and algorithms
+	- [x] Finish week 8 notes
+	- [x] Week 9 notes
+	- [x] Week 10 notes
 - [ ] Kotlin
 	- [ ] Review interim test when results get published
-- [ ] Calculus
-	- [ ] Make notes for whole course
+- [x] Calculus
+	- [x] Make notes for whole course
 - [ ] Linear Algebra
 	- [ ] Lecture 13 notes
 	- [ ] Lecture 14 notes

@@ -16,7 +16,7 @@ We can think of each **column** as a **mapping** of the standard ordered bases b
 
 
 
-We can also think of a **matrix** as a [[Functions|function]] $f_A:\mathbb{R}^n\rightarrow\mathbb{R}^m$, such that $f_A(\overrightarrow{x})=A\overrightarrow{x}$.
+We can also think of a **matrix** as a **function** $f_A:\mathbb{R}^n\rightarrow\mathbb{R}^m$, such that $f_A(\overrightarrow{x})=A\overrightarrow{x}$.
 As a function, a **matrix** **maps** all the **vectors** in the $\mathbb{R}^n$ space to the $\mathbb{R}^m$ space.
 
 **Matrix multiplication** is simply the **composition** of the underlying functions:

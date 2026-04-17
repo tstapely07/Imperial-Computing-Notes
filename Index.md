@@ -11,4 +11,4 @@ tags:
 [[40009 - Computing Practical 1]]
 [[40016 - Calculus]]
 [[40017 - Linear Algebra]]
-[[40018 - Discrete Mathematics, Logic]]
+[[40018 - Discrete Mathematics, Logic, and Reasoning]]

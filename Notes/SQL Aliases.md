@@ -4,7 +4,7 @@ tags:
   - first-year
   - M40007
 ---
-A **table** or **column** can be temporarily renamed using `AS`.
+In [[SQL Data Manipulation Language (DML)|SQL]], we can temporarily rename a **table** or **column** using `AS`.
 * One use of this is to join a table to itself.
 
 This query lists users with both a **current** and **deposit** account, and the respective account numbers:

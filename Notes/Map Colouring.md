@@ -10,7 +10,7 @@ Here is a map of some countries:
 * In this case, the answer is $3$.
 
 To solve the problem, we draw the [[Dual Graph|dual graph]].
-Once we've drawn the **dual graph**, the problem is to colour the [[Nodes|nodes]] of a planar graph in such a way that if two **nodes** are adjacent, then they have different colours:
+Once we've drawn the **dual graph**, the problem is to colour the [[Nodes|nodes]] of a [[Planar Graphs|planar graph]] in such a way that if two **nodes** are adjacent, then they have different colours:
 * ![[Pasted image 20260116223550.png|200]]
 
 
@@ -25,6 +25,6 @@ Its [[Dual Graph|dual graph]] is $K_4$:
 > [!Abstract] Definition
 > A graph $G$ is **k-colourable** if the [[Nodes|nodes]] of $G$ can be coloured using no more than $k$ colours.
 
-From the **Four Colour Theorem**, every **simple planar graph** is $4$-colourable.#
+From the **Four Colour Theorem**, every **simple planar graph** is $4$-colourable.
 
 Every **2-colourable** graph is a [[Bipartite Graphs|bipartite graph]].

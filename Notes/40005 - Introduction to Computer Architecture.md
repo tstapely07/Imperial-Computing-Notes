@@ -12,7 +12,7 @@ tags:
 * Thursday 12-1
 
 # Topics
-* To start, why not visit [[Instruction Set Architecture]]
+* To start, why not visit [[Instruction Set Architecture (ISA)]]
 * Alternatively, here's the full topic list:
 ![[Computer Architecture Topics.base]]
 

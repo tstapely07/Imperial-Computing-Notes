@@ -36,3 +36,10 @@ The XOR gate is true iff the inputs are different:
 * ![[Pasted image 20260405200059.png|201]]
 * Again, it can be constructed using NAND gates:
 	* ![[Pasted image 20260405200124.png|345]]
+
+The gates themsleves have different relative physical sizes, approximately, these are:
+* NOT - 3.
+* NAND/NOR - 4.
+* AND/OR - 6.
+* XOR/XNOR - 8.
+By replacing AND and OR gates with NAND and NOR gates, and then using De Morgan's theorem to move the NOT gates through the circuit, a smaller physical representation for a circuit can be obtained.

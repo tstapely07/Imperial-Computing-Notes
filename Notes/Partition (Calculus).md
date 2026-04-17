@@ -7,6 +7,11 @@ tags:
 > [!Abstract] Definition
 > A **partition** $P$ of the **closed interval** $[a,b]$ is a **finite** [[Sequences|sequence]] of points that divides the **interval** into **subintervals**:
 > $$a=r_0\lt r_1\lt r_2\lt \dots \lt r_n=b$$
+
+> [!Abstract] Definition
 > The **norm** of a **partition**, $||P||$, is the width of the largest **subinterval**:
 > $$||P||:=\max_{i\le i\le n}(r_i-r_{i-1})$$
+> 
 
+> [!Abstract] Definition
+> If every **subinterval** in a **partition** has the same width, then it is known as an **equi-partition**.

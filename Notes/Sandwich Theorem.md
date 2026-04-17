@@ -21,9 +21,10 @@ $$|c_n-L|\lt \epsilon$$
 Since for any $\epsilon\gt 0$ we found an $N$ such that $|c_n-L|\lt\epsilon$ for all $n\gt N$, we can conclude that $\lim_{n\to\infty}c_n=L$.
 
 
-We can use the **sandwich theorem** to prove that the sequence $(a_n)_{n\gt1}=\frac{\sin n}{n}$.
-We know that $\forall n:-1\le\sin n\le 1$
-Now we can divide the inequality by $n$. Since $n\gt1$, $n$ is **strictly positive**, so the inequality signs do not flip:
-$$-\frac{1}{n}\le \frac{\sin n}{n}\le \frac{1}{n}$$
-Since $\lim_{n\to\infty}(-\frac{1}{n})=0$ and $\lim_{n\to\infty}(\frac{1}{n})=0$, we can apply the **sandwich theorem**, and conclude that the inner sequence must also converge to the same limit, and so:
-$$\lim_{n\to\infty}\frac{\sin n}{n}=0$$
+> [!Example]
+> We can use the **sandwich theorem** to prove that the sequence $(a_n)_{n\gt1}=\frac{\sin n}{n}$.
+> We know that $\forall n:-1\le\sin n\le 1$
+> Now we can divide the inequality by $n$. Since $n\gt1$, $n$ is **strictly positive**, so the inequality signs do not flip:
+> $$-\frac{1}{n}\le \frac{\sin n}{n}\le \frac{1}{n}$$
+> Since $\lim_{n\to\infty}(-\frac{1}{n})=0$ and $\lim_{n\to\infty}(\frac{1}{n})=0$, we can apply the **sandwich theorem**, and conclude that the inner sequence must also converge to the same limit, and so:
+> $$\lim_{n\to\infty}\frac{\sin n}{n}=0$$

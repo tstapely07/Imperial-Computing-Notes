@@ -90,7 +90,7 @@ WHERE 'deposit' = SOME (SELECT type
 ```
 
 > [!Note]
-> We know from [[40018 - Discrete Mathematics, Logic|first order logic]] that $\neg\exists\neg=\forall$, and the same holds for `SOME` and `ALL`.
+> We know from [[40018 - Discrete Mathematics, Logic, and Reasoning|first order logic]] that $\neg\exists\neg=\forall$, and the same holds for `SOME` and `ALL`.
 > The following queries are equivalent, both returning:
 > * ![[Pasted image 20260406111058.png|90]]
 > ```SQL
@@ -108,3 +108,5 @@ WHERE 'deposit' = SOME (SELECT type
 > 				 WHERE account.no = movement.no)
 > ```
 
+> [!Tip]
+> **Subqueries** can also be placed in a [[SQL Select in From|FROM]] clause.

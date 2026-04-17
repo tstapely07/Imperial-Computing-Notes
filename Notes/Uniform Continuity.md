@@ -38,7 +38,6 @@ This matches our definition, so $f(x)=x^2$ is indeed **uniformly continuous**.
 > [!Theorem]
 > If a **function** is **uniformly continuous** on an **interval**, it is **continuous** on every point inside that **interval**.
 
-
 > [!Theorem]
 > If a **function** is **continuous** on a **closed interval**, $[a,b]$, it is **uniformly continuous** on $[a,b]$.
 

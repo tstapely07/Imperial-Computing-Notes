@@ -38,6 +38,20 @@
         "type": "FILES",
         "pattern": "Notes/Haskell/Haskell.md",
         "patternType": "STRICT"
+      },
+      {
+        "name": "",
+        "active": true,
+        "type": "FILES",
+        "pattern": "To-Do This Week.md",
+        "patternType": "STRICT"
+      },
+      {
+        "name": "",
+        "active": true,
+        "type": "FILES",
+        "pattern": "Contribution Graph.md",
+        "patternType": "STRICT"
       }
     ],
     "frontMatter": [

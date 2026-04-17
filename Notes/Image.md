@@ -4,7 +4,6 @@ tags:
   - first-year
   - M40017
 ---
-
 > [!Abstract] Definition
 > The **image** of a [[Linear Mapping|linear mapping]] is its **range** in the **codomain**. It is a [[Vector Subspaces|subspace]] of the **codomain** [[Vector Spaces|vector space]].
 

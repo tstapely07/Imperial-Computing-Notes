@@ -108,7 +108,7 @@ Proving (2) is maintained:
 	* But `f[x] <= f[y]` by our choice of `x`, so we have a **contradiction**.
 
 # Optimisation with Priority Queues
-We can optimise the **A\*** algorithm with **priority queues**:
+We can optimise the **A\*** algorithm with [[priority queues]]:
 ```Python
 def aStar((G, W), start, finish, h):
 	# initialisation

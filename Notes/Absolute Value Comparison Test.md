@@ -1,6 +1,8 @@
 ---
 date: 2026-03-26
 tags:
+  - first-year
+  - M40016
 ---
 The [[comparison test]] can be extended to check for the **absolute convergence** of a [[Series|series]].
 

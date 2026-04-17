@@ -28,7 +28,7 @@ Let $(x_n)_{n\ge1}=\frac{1}{n}$.
 Let $(y_n)_{n\ge1}=-\frac{1}{n}$. 
 * As $n\to\infty$, $y_n\to 0$. 
 * Because every term is **strictly negative**, $f(y_n)=-1$ for all $n$.
-* So the **sequence** of outputs **converges** to $1$.
+* So the **sequence** of outputs **converges** to $-1$.
 Since $1\neq -1$ we have two **sequences** that **converge** to $0$, but produce different **limits**.
 * This means that $\lim_{x\to0}f(x)$ does not exist.
 Because the **limit** does not exist, it cannot equal $f(0)$, and therefore $f(x)$ is not **continuous** at $x_0=0$.

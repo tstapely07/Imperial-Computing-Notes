@@ -3,7 +3,6 @@ date: 2026-01-28
 tags:
   - M40008
 ---
-
 > [!Abstract] Definition
 > A [[Paths|path]] that visits every [[Nodes|node]] exactly once is a **Hamiltonian path**.
 
@@ -30,4 +29,4 @@ Every possible circuit can be checked in $O(n)$, and there are $n!$ possible cir
 * This is **very slow**.
 
 A method using **dynamic programming** (the [[Bellman-Held-Karp algorithm]]) can solve the **HCP** in $O(n^22^n)$, which is better but still exponential.
-In fact, **HCP** has been shown to be [[NP-Completeness|NP-complete]].
+In fact, **HCP** has been shown to be [[NP-Complete|NP-complete]].

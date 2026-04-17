@@ -133,18 +133,8 @@ We can also note:
 But these two notes are not required for the proof.
 
 # Prim's Algorithm with Priority Queues
-Each item `x` of the queue has a priority `key[x]`, which is usually a natural number.
-* The key represent the cost.
-* Items are removed lowest key first.
-The operations available to us include:
-* `PQcreate()`
-* `isEmpty(Q)`
-* `insert(Q,x)`
-* `getMin(Q)`
-* `deleteMin(Q)`
-* `decreaseKey(Q,x,newkey)` - updates `key[x] = newkey`.
-
-Let's rewrite **Prim's algorithm**, using priority queues:
+Let's rewrite **Prim's algorithm**, using [[priority queues]]:
+* here, the **key** is the **cost**.
 ```Python
 Q = PQcreate()
 for x in nodes(G):
@@ -172,7 +162,7 @@ With $n$ **nodes** and $m$ **arcs**, the number of priority queue operations is:
 * $O(n)$ get mins.
 * $O(n)$ delete mins.
 * $O(m)$ decrease keys.
-In a good implementation of a **priority queue**, via a **binary heap**, all operations are $O(log(n))$, bar `isEmpty` and `getMin` which are $O(1)$.
+In a good implementation of a **priority queue**, via a [[Binary Heaps|binary heap]], all operations are $O(log(n))$, bar `isEmpty` and `getMin` which are $O(1)$.
 So Prim's algorithm with a **priority queue** is overall $O(m\cdot log(n))$, assuming that $n<m$, as is usually the case.
 
 We an also implement a **priority queue** with **Fibonacci heaps** rather than **binary heaps**. Now, all operations are $O(1)$, apart from `deleteMin`, which is $O(log(n))$.

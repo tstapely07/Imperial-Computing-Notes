@@ -4,7 +4,6 @@ tags:
   - first-year
   - M40008
 ---
-
 **Warshall's algorithm** defines an **efficient** method for computing the [[Transitive Closure and Directed Graphs|transitive closure]] of a [[directed graphs|directed graph]]. 
 
 Suppose the [[nodes]] are $\{1,\dots,n\}$.

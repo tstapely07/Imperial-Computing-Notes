@@ -8,4 +8,4 @@ tags:
  * We do this via **circuit minimisation**.
 
 One method is to use known **equivalences**, however some **minimisations** are often hard to spot. 
-A simple graphical method is the [[Karnaugh Map]].
+A simple graphical method is the [[Karnaugh Maps]].

@@ -16,4 +16,9 @@ One example of a **divide and conquer** algorithm is [[Strassen's algorithm]].
 * It divides the problem into $a=7$ subproblems of size $n/2$.
 * Both the **divide** and **combine** steps require extra work, in the form of **matrix** **additions** and **subtractions**.
 
-Other examples, include the [[Merge Sort]] and the [[Quick Sort]].
+Other examples include the [[Merge Sort]] and the [[Quick Sort]].
+
+> [!Note]
+> In **divide and conquer** algorithms, the **subproblems** are **independent** and **non-overlapping**.
+> * If the **subproblems** overlap or repeat then [[dynamic programming]] is more suitable.
+

@@ -107,7 +107,7 @@ Proving (2) is maintained:
 The remainder of the proof is omitted for brevity.
 
 # Optimisation with Priority Queues
-Much like we optimised **Prim's** algorithm with a **priority queue**, we can do the same for **Dijkstra's**.
+Much like we optimised **Prim's** algorithm with a [[priority queues|priority queue]], we can do the same for **Dijkstra's**.
 The implementation goes as follows:
 ```Python
 # initialisation

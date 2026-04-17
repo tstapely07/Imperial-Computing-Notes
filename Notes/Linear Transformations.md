@@ -12,7 +12,7 @@ Geometrically, transformations include:
 * Projecting down to a [[Dimension|lower-dimensional]] [[Vector Spaces|space]].
 * Embedding into a **higher-dimensional** **space**.
 
-In fact **linear transformations** and **linear mappings** are equivalent.
+In fact, **linear transformations** and **linear mappings** are equivalent.
 
 Just like there is a [[Matrix Representation of Linear Mappings|matrix representation]] for every **linear mapping**, we can also represent a **transformation** as a **matrix**.
 

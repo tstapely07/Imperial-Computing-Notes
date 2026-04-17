@@ -10,3 +10,4 @@ tags:
 
 Let us note that **dual graphs** of maps are always **simple** and [[Planar Graphs|planar]].
 Conversely, any **simple planar graph** is the **dual graph** of some map.
+

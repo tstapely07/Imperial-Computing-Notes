@@ -11,7 +11,7 @@ However, when the list is **sorted**, it will produce a **biased tree** that onl
 This degrades **binary tree search** to `O(n)`.
 The solution is to implement trees that **balance themselves**.
 This is too complex to do ourselves, but Haskell defines a `Set` to serve this purpose.
-Like in [[40018 - Discrete Mathematics, Logic|discrete maths]], sets contain **no duplicate elements**.
+Like in [[40018 - Discrete Mathematics, Logic, and Reasoning|discrete maths]], sets contain **no duplicate elements**.
 
 Normally, we [[Imports|import]] the `Set` [[Modules|module]] like this:
 ```Haskell

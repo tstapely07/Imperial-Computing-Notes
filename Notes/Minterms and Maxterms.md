@@ -4,7 +4,6 @@ tags:
   - first-year
   - M40001
 ---
-
 > [!Abstract] Definition
 > A **minterm** is a **conjunction** that contains every variable or its **negation** exactly once.
 > * For example, with three variables, $A\cdot B\cdot C$ and $A'\cdot B\cdot C'$ are **minterms**, but $AB$ is not.

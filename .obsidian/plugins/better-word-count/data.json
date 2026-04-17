@@ -1,6 +1,31 @@
 {
   "statusBar": [],
-  "altBar": [],
+  "altBar": [
+    {
+      "prefix": "total files ",
+      "suffix": "",
+      "metric": {
+        "type": 2,
+        "counter": 6
+      }
+    },
+    {
+      "prefix": " total words ",
+      "suffix": "",
+      "metric": {
+        "type": 2,
+        "counter": 0
+      }
+    },
+    {
+      "prefix": " words today",
+      "suffix": "",
+      "metric": {
+        "type": 1,
+        "counter": 0
+      }
+    }
+  ],
   "countComments": false,
   "collectStats": true,
   "displaySectionCounts": false,

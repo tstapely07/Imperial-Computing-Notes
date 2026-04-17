@@ -1,0 +1,8 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.hasTag("#M40001")
+    order:
+      - file.name

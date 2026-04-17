@@ -4,7 +4,6 @@ tags:
   - first-year
   - "#M40007"
 ---
-
 > [!Abstract] Definition
 > **Relations** are sets of typed tuples.
 > They take the form $R(A,B,\dots)$ where $R$ is the name of the **relation**.

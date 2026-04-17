@@ -11,7 +11,7 @@ The **TSP** is clearly related to both the [[Hamiltonian Paths and Circuits|Hami
 * Finding a **Hamiltonian circuit** is trivial, since we have assumed that the graph is **complete**.
 * The difficulty is finding the shortest **Hamiltonian circuit**, which involves checking $n!$ different **circuits**.
 
-Like the **Hamiltonian circuit problem**, the **TSP** is [[NP-Completeness|NP-complete]], so there is no **polynomial solution**.
+Like the **Hamiltonian circuit problem**, the **TSP** is [[NP-Complete|NP-complete]], so we [[Intractability via NP-Completeness|assume]] there is no **polynomial solution**.
 * There is a better algorithm than just checking every possible tour, which runs in $O(n^22^n)$.
 
 > [!Note]

@@ -32,7 +32,7 @@ To prove **correctness**, we show that at each stage $k$, we have forest $F_k\su
 
 To implement the algorithm we have to do two things:
 * Look at each **arc** in ascending order of weight.
-	* We can use a **priority queue** here.
+	* We can use a [[Priority Queues|priority queue]] here.
 * Check whether adding the **arc** to the **forest** so far creates a **cycle**.
 	* We can use **dynamic equivalence classes**.
 	* We put **nodes** in the same **equivalence class** if they belong to the same [[Connected Components|connected component]] of the **forest** constructed so far.

@@ -4,7 +4,8 @@ tags:
   - first-year
   - M40007
 ---
-We can define a **temporary** named result, that requires referencing multiple times in one query, using `WITH`.
+In [[SQL Data Manipulation Language (DML)|SQL]], we can define a **temporary** named result using `WITH`, and then reference it later in the **query**.
+* This is useful when we want to reference the same result multiple times.
 
 ```SQL
 WITH decimal(digit) AS (VALUES (0), (1), (2), (3), (4), (5), (6), (7), (8), (9))
