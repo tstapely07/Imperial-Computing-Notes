@@ -12,4 +12,5 @@ For example, take [[Matrices|matrix multiplication]]:
 
 We know the theoretical **lower bound** must be $\Theta(n^2)$, since any algorithm must inspect all $n\times n$ elements of the **matrix**.
 * Over decades, computer scientists have continuously found new algorithms to push the $O$ upper bound closer to the $\Theta(n^2)$ lower bound.
-* One example, is [[Strassen's Algorithm]], which is $\Theta(n^{\log 7})\approx\Theta(n^2.807)$.
+* One example, is [[Strassen's Algorithm]], which is $\Theta(n^{\log 7})\approx\Theta(n^{2.807})$.
+* 

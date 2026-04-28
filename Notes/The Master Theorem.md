@@ -27,7 +27,7 @@ The solutions to our **recurrence relation** $T(n)$ are as follows:
 	* So the **total work** is determined by the number of leaves, $n^E$.
 * Note that for **polynomials**, it is sufficient to compare the $E$ to the **exponent** of $f(n)$ to work out which case we are in.
 	* However, the formal definition in terms of $\epsilon$ is required to catch cases where the **work** at the **leaves** and the **work** at the **root** differs, but by **less** than a **polynomial factor**, such as a **logarithmic factor**.
-	* Here, the **Master Theorem** does not apply.w
+	* Here, the **Master Theorem** does not apply.
 
 We can now apply the **Master Theorem** to our previous **divide and conquer** algorithms.
 * For [[Binary Search]]:

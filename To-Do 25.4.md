@@ -1,0 +1,6 @@
+- [x] Imperative reasoning PMT 1 - 1 hour
+- [x] Imperative reasoning PMT 2 - 1 hour
+- [ ] Architecture part 1 TUT 1 - 1 hour
+- [ ] Architecture part 1 TUT 2 - 1 hour
+- [ ] Systems 2021 - 2 hours
+- [ ] Graphs 2021 - 2 hours

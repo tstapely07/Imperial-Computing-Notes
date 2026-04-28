@@ -4,7 +4,6 @@ tags:
   - first-year
   - M40008
 ---
-
 > [!Abstract] Definition
 > A [[Graphs|graph]] is **planar** if it **can** be drawn so that no [[Arcs|arcs]] cross.
 

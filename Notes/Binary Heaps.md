@@ -4,7 +4,6 @@ tags:
   - first-year
   - M40008
 ---
-
 > [!Abstract] Definition
 > A **binary heap structure** is a **left-complete** binary [[Trees - Graphs|tree]].
 > * **Left-complete** means that if the tree has [[Tree Depth|depth]] $d$: 

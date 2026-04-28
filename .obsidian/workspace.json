@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "65a65f83bb8919c0",
+        "id": "732d87673b4dc890",
         "type": "tabs",
         "children": [
           {
-            "id": "9f4ab79949a370ea",
+            "id": "aaf256f9d9170b9d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Semi-Structured Proofs.md",
+                "file": "Notes/32-bit Processor.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,59 +28,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Semi-Structured Proofs"
-            }
-          },
-          {
-            "id": "cec4d017fa0ae14b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notes/Mathematical Induction.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Mathematical Induction"
-            }
-          },
-          {
-            "id": "716ce0cbb74a6298",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notes/Strong Induction.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Strong Induction"
+              "title": "32-bit Processor"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -112,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "IEEE",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -155,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/32-bit Processor.md",
+                "file": "Notes/Heuristic Function.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -165,7 +116,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 32-bit Processor"
+              "title": "Backlinks for Heuristic Function"
             }
           },
           {
@@ -236,8 +187,7 @@
               "title": "Advanced Tables"
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "horizontal",
@@ -256,43 +206,45 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "716ce0cbb74a6298",
+  "active": "aaf256f9d9170b9d",
   "lastOpenFiles": [
-    "Notes/Mathematical Induction.md",
-    "Notes/Strong Induction.md",
-    "Notes/Semi-Structured Proofs.md",
-    "Notes/Attachments/Pasted image 20260417132155.png",
-    "Notes/Attachments/Pasted image 20260417132138.png",
-    "Notes/Attachments/Pasted image 20260417132121.png",
-    "Notes/Attachments/Pasted image 20260417132120.png",
-    "Notes/Attachments/Pasted image 20260417132105.png",
-    "Notes/Attachments/Pasted image 20260417131936.png",
-    "Notes/Attachments/Pasted image 20260417131914.png",
-    "Notes/Attachments/Pasted image 20260417130532.png",
-    "Notes/Attachments/Pasted image 20260417130514.png",
-    "Notes/Attachments/Pasted image 20260417130421.png",
-    "Notes/Reasoning About Programs Coursework Answers.md",
-    "Notes/Microsequencer.md",
-    "Notes/Exceptions.md",
-    "Notes/Combinatorial Circuits.md",
+    "Notes/Floating Point.md",
     "Notes/32-bit Processor.md",
-    "Notes/Circuit Minimisation.md",
-    "Notes/Finite State Machines.md",
-    "Notes/Half Adder.md",
-    "Notes/Manual Processor.md",
-    "Notes/Static RAM.md",
-    "Notes/Synchronous Circuits.md",
-    "Notes/Arithmetic and Logic Unit (ALU) (Architecture).md",
-    "Notes/Multi-Cycle Datapath.md",
-    "Notes/Connecting RAM to a Processor.md",
-    "Notes/Datapath.md",
-    "Notes/RISC-V Architecture.md",
-    "Notes/Absolute Value Comparison Test.md",
-    "Notes/Untitled 1.md",
-    "Notes/Untitled 2.md",
-    "Notes/RISC-V Memory.md",
-    "Notes/Haskell/Memory Leaks.md",
-    "Notes/Relational Algebra Equivalences.md",
+    "Notes/The Master Theorem.md",
+    "Notes/NP-Complete.md",
+    "Notes/Class NP.md",
+    "Notes/Clock Dividers.md",
+    "Notes/Asynchronous Circuits.md",
+    "Notes/Memory Addressing Modes.md",
+    "Notes/Operand Types.md",
+    "Notes/x86 Datatypes.md",
+    "Notes/x86 Registers.md",
+    "Notes/The mov Instruction.md",
+    "Notes/x86 Arithmetic Operations.md",
+    "Notes/The lea Instruction.md",
+    "Notes/Condition Codes.md",
+    "Notes/Jump Instructions.md",
+    "Notes/Set Instructions.md",
+    "Notes/x86 Conditional Branching.md",
+    "Notes/condition.md",
+    "Notes/Conditional Branches.md",
+    "Notes/x86 Cache.md",
+    "Notes/x86 Memory Allignment.md",
+    "Notes/x86 Memory Layout.md",
+    "Notes/Memory Word Sizes.md",
+    "Notes/Conditional Moves.md",
+    "Notes/conditi.md",
+    "Notes/DMLR Topics.base",
+    "Notes/Attachments/Pasted image 20260422115015.png",
+    "Notes/Attachments/Pasted image 20260422114858.png",
+    "Notes/Attachments/Pasted image 20260422114839.png",
+    "Notes/Attachments/Pasted image 20260422114825.png",
+    "Notes/Attachments/Pasted image 20260422114451.png",
+    "Notes/Attachments/Pasted image 20260422114441.png",
+    "Notes/Attachments/Pasted image 20260422114409.png",
+    "Notes/Attachments/Pasted image 20260422114356.png",
+    "Notes/Attachments/Pasted image 20260422114341.png",
+    "Notes/Attachments/Pasted image 20260422114331.png",
     "Notes/Computer Architecture Topics.base",
     "Notes/Databases Topics.base",
     "Notes/Computer Systems Topics.base",
@@ -301,7 +253,6 @@
     "Notes/Haskell Topics.base",
     "Notes/Graphs Topic List.base",
     "Notes/Linear Algebra Topics.base",
-    "Notes/Attachments",
-    "Notes/Haskell"
+    "Notes/Attachments"
   ]
 }

@@ -4,7 +4,6 @@ tags:
   - first-year
   - M40016
 ---
-
 > [!Theorem]
 > Suppose $f:[1,\infty)\to\mathbb{R}$ is a **function** such that for all $x\in[1,\infty)$:
 > * $f(x)\gt 0$ - the function is **strictly positive**.

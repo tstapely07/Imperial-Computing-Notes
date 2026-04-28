@@ -4,7 +4,6 @@ tags:
   - first-year
   - M40008
 ---
-
 > [!Abstract] Definition
 > An **Euler path** is a [[Paths|path]] which uses each [[Arcs|arc]] exactly once.
 

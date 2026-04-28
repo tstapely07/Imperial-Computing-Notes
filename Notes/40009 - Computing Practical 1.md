@@ -9,7 +9,7 @@ tags:
 ---
 # Languages Studied
 [[Haskell]]
-**Kotlin**
+[[Kotlin]]
 **Java**
-**C**
+[[C]]
 

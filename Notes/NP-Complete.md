@@ -4,7 +4,6 @@ tags:
   - M40008
   - first-year
 ---
-
 > [!Abstract] Definition
 > A [[Decision Problems|decision problem]] $D$ is **NP-complete** (**NPC**) if:
 > * $D\in NP$ 
@@ -29,7 +28,7 @@ We define $TSP(D)$ as:
 We can show that $TSP(D)\in NP$ since, if we guess some **path** $\pi$,  we can check in **p-time** that $\pi$ is a [[Hamiltonian Paths and Circuits|Hamiltonian circuit]] of $G$, and that $W(\pi)\le B$.
 * We clearly have $|\pi|\le|G|$ as required.
 To show $D'\le TSP(D)$ for some **NPC problem** $D'$, we will show that $HamPath\le TSP(D)$.
-We need to define a **p-time** function $f$ to transform $G$ into a **weighted graph** $G$ and a **bound** $B$ such that $HamPath(G)\iff TSP(D)((G',W),B)$.
+We need to define a **p-time** function $f$ to transform $G$ into a **weighted graph** $G'$ and a **bound** $B$ such that $HamPath(G)\iff TSP(D)((G',W),B)$.
 Given $G$, we can construct $(G',W)$ as follows:
 * Set $nodes(G')=nodes(G)$.
 * For any two distinct [[nodes]] $x,y$ of $G$:

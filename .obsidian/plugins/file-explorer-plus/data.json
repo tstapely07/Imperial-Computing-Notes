@@ -43,7 +43,7 @@
         "name": "",
         "active": true,
         "type": "FILES",
-        "pattern": "To-Do This Week.md",
+        "pattern": "To-Do 25.4.md",
         "patternType": "STRICT"
       },
       {

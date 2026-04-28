@@ -4,7 +4,7 @@ tags:
   - first-year
   - M40005
 ---
-**Amdahl's law** defines the **theoretical maximum performance improvement** achieved by only **optimising** a **part** of the **system**.
+**Amdahl's law** defines the **theoretical maximum** [[performance]] **improvement** achieved by only **optimising** a **part** of the **system**.
 * If a program takes an initial time of $T_{old}$, and we speed up some fraction $\alpha$ by a factor of $\beta$ the new execution time is calculated as:
 $$T_{new}=\frac{\alpha T_{old}}{\beta}+(1-\alpha)T_{old}$$
 

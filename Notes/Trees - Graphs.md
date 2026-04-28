@@ -4,7 +4,6 @@ tags:
   - first-year
   - M40008
 ---
-
 > [!Abstract] Definition
 > A **tree** is an [[Cycles|acyclic]], [[Connectedness|connected]], [[Rooted Graphs|rooted graph]].
 

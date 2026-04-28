@@ -4,7 +4,6 @@ tags:
   - first-year
   - M40008
 ---
-
 > [!Abstract] Definition
 > A [[Decision Problems|decision problem]] $D$ is **NP-hard** if, for all problems $D'\in NP$, we have $D'\le D$.
 

@@ -4,7 +4,6 @@ tags:
   - first-year
   - M40008
 ---
-
 > [!Abstract] Definition
 > In an **adjacency matrix**, each $i,j$ entry represents how many [[Arcs|arcs]] connect $i$ to $j$.
 

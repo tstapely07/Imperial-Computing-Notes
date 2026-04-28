@@ -4,7 +4,6 @@ tags:
   - first-year
   - M40008
 ---
-
 > [!Abstract] Definition
 > An **adjacency list** is an **array** of **linked lists**.
 > For each [[Nodes|node]], we store a list of **adjacent nodes.**

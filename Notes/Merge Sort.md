@@ -47,7 +47,7 @@ We can compare the [[Decision Trees for Sorting|lower bound]] $\lceil log(n!)\rc
 We can use **calculus** to prove it remains [[Algorithm Analysis|optimal]] as $n$ grows.
 If we assume $n=2^k$, we can simplify the recurrence relation to:
 $$W(n)=n-1+2W\left(\frac{n}{2}\right)$$
-By repeating expansion, we can obtain:
+By repeated expansion, we can obtain:
 $$W(n)=n\log_2(n)-n+1$$
 Now we can clearly see that **merge sort** has a [[Formal Definitions of Big-O and Big-Theta|time complexity]] of $\Theta(n\log n)$.
 

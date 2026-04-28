@@ -4,6 +4,7 @@ tags:
   - "#lecturers/luk-wayne"
   - "#M40005"
   - "#admin"
+  - "#lecturers/maria-valera-espina"
 ---
 # Lecture Times
 * Tuesday 2-4

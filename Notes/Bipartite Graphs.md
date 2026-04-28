@@ -4,7 +4,6 @@ tags:
   - first-year
   - M40008
 ---
-
 > [!Abstract] Definition
 > A [[Graphs|graph]] $G$ is **bipartite** if $nodes(G)$ can be partitioned into sets $X$ and $Y$ in such a way that no two nodes of $X$ are joined and no two nodes of $Y$ are joined.
 

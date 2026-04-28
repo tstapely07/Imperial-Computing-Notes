@@ -36,8 +36,8 @@ def bellman_held_karp((G,W)):
 		C[[], x] = weights[start, x]
 		
 	# process sets S in increasing order of size
-	for s in nodes(G) \ [start]:
-		if len(s) == 0:
+	for S in nodes(G) \ [start]:
+		if len(S) == 0:
 			continue
 		for x in (nodes(G) \ S) \ [start]:
 			# find C[S,x]
