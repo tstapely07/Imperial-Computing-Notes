@@ -66,6 +66,7 @@ All instructions will take $5$ steps to execute, as follows:
 3. Load the $B$ and $C$ **registers**.
 4. Load the $IR$ **register**.
 5. Load the $RES$ and $C$ **registers**.
+
 We will assume that the data input lines are externally controlled, and will hold the correct input at each step.
 We can implement the **controller** as a [[Synchronous Circuits|synchronous]] [[Sequential Circuits|sequential circuit]], with the following [[Finite State Machines|finite state machine]]:
 * ![[Pasted image 20260409204002.png|255]]

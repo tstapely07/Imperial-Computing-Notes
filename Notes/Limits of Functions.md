@@ -4,7 +4,6 @@ tags:
   - first-year
   - M40016
 ---
-
 > [!Definition]
 > Let $f$ be a real-valued **function**. We say that $f(x)\to l$ as $x\to x_0$ if for **every** [[Sequences|sequence]] $(x_n)_{n\ge1}$ that **converges** to $x_0$, the corresponding **sequence** of functions outputs $f(x_n)$ **converges** to the [[Limits|limit]] $l$.
 

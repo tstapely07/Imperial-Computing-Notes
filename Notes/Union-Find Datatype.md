@@ -50,7 +50,7 @@ def cfind(x):
 		root = x
 	else:
 		root = cfind(y)
-		if root != y: # this if performs the path exception
+		if root != y: # this `if` performs the path compression
 			parent[x] = root
 	return root
 ```

@@ -17,3 +17,4 @@ This allows us to find $A^n$ and $A^{-1}$ in terms of lower powers: $I, A, A^2,\
 
 The proof relies on the fact that there exists a sequence of [[Diagonalisation|diagonalisable]] **square matrices**, $A_1, A_2, \dots, A_k,\dots$ that converges to $A$.
 * These **matrices** can contain **complex numbers**, so the proof is outside the scope of this course.
+

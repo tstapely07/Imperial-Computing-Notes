@@ -16,7 +16,7 @@ It uses a **load-store architecture**:
 There are $6$ different **instruction formats**.
 We will use the following shorthand to represent the possible fields:
 * `opcdode` - $7$ **bits** - identifies the **instruction**.
-* `rd` - $5$ **bits** - identifies the **destination regiser**.
+* `rd` - $5$ **bits** - identifies the **destination register**.
 * `rs1` - $5$ **bits** - identifies the first **source register**.
 * `rs2` - $5$ bits - identifies the second **source** **register**.
 * `funct3` - $3$ bits and `funct7` - $7$ bits - additional **opcode** **fields** used when `opcode` alone isn't sufficient to identify the **instruction**.

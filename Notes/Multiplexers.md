@@ -7,7 +7,7 @@ tags:
 A **multiplexer** acts as a digital switch.
 * The simplest **multiplexer** takes two inputs, $A$ and $B$, and a third control input, $C$.
 * The output is as follows:
-$$R+\begin{cases}A\quad\text{ if } C=0\\B\quad\text{ if } C=1\end{cases}$$
+$$R=\begin{cases}A\quad\text{ if } C=0\\B\quad\text{ if } C=1\end{cases}$$
 * We can construct one out of [[logic gates]] like this:
 	* ![[Pasted image 20260405200358.png|351]]
 

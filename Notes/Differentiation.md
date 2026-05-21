@@ -4,7 +4,6 @@ tags:
   - first-year
   - M40016
 ---
-
 > [!Abstract] Definition
 > For a **function** $f:(a,b)\to\mathbb{R}$, the **derivative** of $f$ at point $x_0\in(a,b)$, if it exists, is defined by:
 > $$f'(x_0)=\lim_{x\to x_0} \frac{f(x)-f(x_0)}{x-x_0}$$
@@ -26,7 +25,7 @@ If $f(x)$ and $g(x)$ are **differentiable**, the following properties apply:
 * If $h(x)=f(g(x))$ then $h'(x)=f'(g(x))g'(x)$
 * $\left( \frac{f}{g} \right)'(x)=\frac{f'(x)g(x)-f(x)g'(x)}{g(x)^2}$
 
-The **sign** of the **derivative** tells us how the **func#tion** behaves locally:
+The **sign** of the **derivative** tells us how the **function** behaves locally:
 * If $f'(x_0)\gt 0$ then $f$ is **strictly increasing** around $x_0$.
 * If $f'(x_0)\lt 0$ then $f$ is **strictly decreasing** around $x_0$.
 If $f$ is **differentiable** at $x_0$ and $x_0$ is a local maximum or minimum, then $f'(x_0)=0$.

@@ -4,7 +4,7 @@ tags:
   - first-year
   - M40008
 ---
-A **spanning tree** of a [[Graphs|graph]] is a [[Subgraphs|subgraph]] which is a [[Trees - Graphs|tree]], and **spans** all the [[nodes]].
+A **spanning tree** of a [[Graphs|graph]] is a [[Subgraphs|subgraph]] which is a [[Trees - Graphs|tree]], and [[Spanning Subgraphs|spans]] all the [[nodes]].
 
 > [!Abstract] Definition
 > Let $G$ be a **graph**.

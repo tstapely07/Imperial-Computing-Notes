@@ -6,3 +6,4 @@ tags:
 ---
 > [!Abstract] Definition
 > A [[Graphs|graph]] is **complete** if there is an [[Arcs|arc]] directly connecting every pair of [[Nodes|nodes]].
+

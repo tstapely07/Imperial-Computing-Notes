@@ -4,7 +4,7 @@ tags:
   - first-year
   - M40017
 ---
-*Consider* a **square** [[Matrices|matrix]] $A_{n\times n}$.
+Consider a **square** [[Matrices|matrix]] $A_{n\times n}$.
 The **eigenvectors** are the [[vectors]] which do not change **direction** when [[Linear Transformations|transformed]] by $A$.
 * They are only **scaled**.
 If $\vec{x}$ is an **eigenvector** of $A$, then:

@@ -8,7 +8,6 @@ In [[SQL Data Manipulation Language (DML)|SQL]], we can use `ROLL UP` for [[SQL 
 * It generates subtotals for each level of the hierarchy, and finally produces a grand total.
 * Once a level is no longer relevant, it is replaced by [[SQL Null|NULL]].
 
-
 > [!Example]
 > This query uses `ROLL UP`:
 > ```SQL

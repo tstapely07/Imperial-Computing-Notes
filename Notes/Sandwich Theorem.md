@@ -5,7 +5,7 @@ tags:
   - M40016
 ---
 > [!Theorem]
-> Let $(a_n)_{n\ge1}$, $(b_n)_{n\ge1}$, and $(c_n)_{n\ge1}$ be [[sequences]]. If $\lim_{n\to\infty}=L$ and $\lim_{n\to\infty}b_n=L$, and $\exists N_0\in\mathbb{N}\;s.t.\; \forall n\gt N_0:a_n\le c_n\le b_n$ then $\lim_{n\to\infty}c_n=L$.
+> Let $(a_n)_{n\ge1}$, $(b_n)_{n\ge1}$, and $(c_n)_{n\ge1}$ be [[sequences]]. If $\lim_{n\to\infty}a_n=L$ and $\lim_{n\to\infty}b_n=L$, and $\exists N_0\in\mathbb{N}\;s.t.\; \forall n\gt N_0:a_n\le c_n\le b_n$ then $\lim_{n\to\infty}c_n=L$.
 
 Proof:
 Let $\epsilon\gt 0$.
@@ -22,9 +22,10 @@ Since for any $\epsilon\gt 0$ we found an $N$ such that $|c_n-L|\lt\epsilon$ for
 
 
 > [!Example]
-> We can use the **sandwich theorem** to prove that the sequence $(a_n)_{n\gt1}=\frac{\sin n}{n}$.
+> We can use the **sandwich theorem** to prove that the sequence $(a_n)_{n\gt1}=\frac{\sin n}{n}$ **converges**.
 > We know that $\forall n:-1\le\sin n\le 1$
 > Now we can divide the inequality by $n$. Since $n\gt1$, $n$ is **strictly positive**, so the inequality signs do not flip:
 > $$-\frac{1}{n}\le \frac{\sin n}{n}\le \frac{1}{n}$$
 > Since $\lim_{n\to\infty}(-\frac{1}{n})=0$ and $\lim_{n\to\infty}(\frac{1}{n})=0$, we can apply the **sandwich theorem**, and conclude that the inner sequence must also converge to the same limit, and so:
 > $$\lim_{n\to\infty}\frac{\sin n}{n}=0$$
+

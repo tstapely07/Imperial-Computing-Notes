@@ -6,7 +6,7 @@ tags:
 ---
 > [!Abstract] Definition
 > A **shift register** is a [[Registers|register]] where the [[Edge-Triggered D-Type Flip-Flop|edge-triggered D-type flip-flops]] are chained together.
-> * The output of one **flip-flop** is connected to the input of the **flip-flop** to tis right.
+> * The output of one **flip-flop** is connected to the input of the **flip-flop** to its right.
 > * This means that on each falling [[Clocks|clock edge]], the data from one **flip-flop** is loaded into the **flip-flop** to its right.
 
 The uses of a **shift register** include:

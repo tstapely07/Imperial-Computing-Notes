@@ -4,7 +4,6 @@ tags:
   - first-year
   - M40017
 ---
-
 > [!Abstract] Definition
 > A **vector subspace** is a subset of a [[Vector Spaces|vector space]], which is a **vector space** in itself.
 

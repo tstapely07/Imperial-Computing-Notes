@@ -14,8 +14,6 @@ We can think of each **column** as a **mapping** of the standard ordered bases b
 >[!Example]
 >$$\overrightarrow{a_1}=f_A\left(\begin{bmatrix}1 \\ 0 \\ \dots \\ 0\end{bmatrix}\right),\dots,\overrightarrow{a_n}=f_A\left(\begin{bmatrix}0 \\ \dots \\ 0 \\ 1\end{bmatrix}\right)$$
 
-
-
 We can also think of a **matrix** as a **function** $f_A:\mathbb{R}^n\rightarrow\mathbb{R}^m$, such that $f_A(\overrightarrow{x})=A\overrightarrow{x}$.
 As a function, a **matrix** **maps** all the **vectors** in the $\mathbb{R}^n$ space to the $\mathbb{R}^m$ space.
 

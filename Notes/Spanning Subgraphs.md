@@ -4,6 +4,5 @@ tags:
   - first-year
   - M40008
 ---
-
 > [!Abstract] Definition
 > If $G'$ is a [[Subgraphs|subgraph]] of $G$, and $nodes(G')=nodes(G)$, we say that $G'$ **spans** $G$.

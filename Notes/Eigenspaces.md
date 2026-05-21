@@ -17,7 +17,7 @@ The proof for **eigenspace** being a **subspace** is as follows:
 	* $A(\vec{x}+\vec{y})=A\vec{x}+A\vec{y}$ - **linearity** of **matrix multiplication**.
 	* $=\lambda_0\vec{x}+\lambda_0\vec{y}$ - definition of **eigenvectors**.
 	* $=\lambda_0(\vec{x}+\vec{y})$ - factorising.
-	* Since $A(\vec{x}+\vec{y})=\lambda_0(\vec{x}+\vec{y})$, the **vector sum** is also in the **eigen space**.
+	* Since $A(\vec{x}+\vec{y})=\lambda_0(\vec{x}+\vec{y})$, the **vector sum** is also in the **eigenspace**.
 
 > [!Note]
 > See also - [[Computing Eigenvalues and Eigenspaces]]

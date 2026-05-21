@@ -4,7 +4,7 @@ tags:
   - first-year
   - M40016
 ---
-Let $\sum_{n\ge1} a_n$ be a [[series]] with **positive**.
+Let $\sum_{n\ge1} a_n$ be a [[series]] with **positive terms**.
 
 > [!Theorem]
 > If for all $n\ge1$, $\frac{a_{n+1}}{a_n}\le l\lt 1$, then $\sum a_n$ **converges**. 

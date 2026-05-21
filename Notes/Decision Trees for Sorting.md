@@ -26,9 +26,10 @@ $$W(n)=\lceil log_2(n!)\rceil$$
 The **average** case is determined by the **total** [[Paths|path length]], the sum of the [[Tree Depth|depths]] of all **leaf nodes**, divided by the total number of leaves, $n!$.
 * To minimise the total path length, a tree must be perfectly [[Balanced Trees|balanced]].
 * Any **unbalanced tree** can be restructured into a **balanced tree** without increasing its **total path length**.
-* Since the **average depth** must be **only slightly** than the **maximum depth** $d$, we can conclude that:
+* Since the **average depth** must be **only slightly lower** than the **maximum depth** $d$, we can conclude that:
 $$A(n)=\lfloor log_2(n!)\rfloor$$
 * This is correct since, unless $n!$ is a power of 2, which is not the case for $n\neq 2$, the floor of a logarithm is exactly one integer lower than its ceiling.
+
 > [!Note]
-> Now we can notice that the theoretical **average case** ($\lfloor log_2(n!)\rfloor$) is almost identical to the **worst case** ($\lceil log_2(n!)\rceil$)
+> Clearly we can notice that the theoretical **average case** ($\lfloor log_2(n!)\rfloor$) is almost identical to the **worst case** ($\lceil log_2(n!)\rceil$)
 > 

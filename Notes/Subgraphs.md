@@ -4,7 +4,6 @@ tags:
   - first-year
   - M40008
 ---
-
 > [!Abstract] Definition
 > For $G_1$ to be a **subgraph** of $G_2$:
 > * $nodes(G_1)\subseteq nodes(G_2)$
@@ -18,4 +17,4 @@ Here, the [[Graphs|graph]] $G_1$ is a **subgraph** of $G_2$:
 
 There are two special kinds of **subgraphs**:
 * [[Full (Induced) Subgraphs|Full (induced) subgraphs]]
-* [[Spanning Subgraphs|spanning subgraphs]]
+* [[Spanning Subgraphs|Spanning subgraphs]]

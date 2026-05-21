@@ -4,7 +4,6 @@ tags:
   - first-year
   - M40008
 ---
-
 > [!Abstract] Definition
 > An **automorphism** on a [[Graphs|graph]] $G$ is an [[Graph Isomorphism|isomorphism]] from $G$ to itself.
 

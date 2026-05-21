@@ -23,6 +23,6 @@ We know that [[bounded sequences have a convergent subsequence]].
 * Let $(x_{n_k})_{k\ge1}$ be this **subsequence** that **converges** to a [[Limits|limit]] $c$.
 Because the **interval** is **closed**, $c\in[a,b]$.
 Because $f$ is **continuous** everywhere, in $[a,b]$, including at $c$, it must be true that $\lim_{k\to\infty} f(x_{n_k})=f(c)$.
-Now, looking at the inequality from before, as $k\to\infty$, $\frac{1}{n_k}\to0$, so by the squeeze theorem, $\lim_{k\to\infty}f(x_{n_k})=M$.
+Now, looking at the inequality from before, as $k\to\infty$, $\frac{1}{n_k}\to0$, so by the [[sandwich theorem]], $\lim_{k\to\infty}f(x_{n_k})=M$.
 Now since this **limit** equals both $f(c)$ and $M$, by transitivity, $f(c)=M$. 
 Therefore the **function** does indeed attain its **supremum**.

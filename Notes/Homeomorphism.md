@@ -4,7 +4,6 @@ tags:
   - M40008
   - first-year
 ---
-
 > [!Abstract] Definition
 > Two [[Graphs|graphs]] are **homeomorphic** if they can both be obtained from the **same graph** by a series of operations where an [[Arcs|arc]] $x-y$ is replaced by two arcs $x-z-y$.
 

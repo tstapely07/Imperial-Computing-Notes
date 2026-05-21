@@ -53,4 +53,4 @@ $$\vec{v}_{\lambda_1}\cdot \vec{v}_{\lambda_2}=0$$
 And so we have indeed shown the **eigenvectors** to be **perpendicular**.
 
 Finally we could show that the [[Multiplicities of Eigenvalues|geometric multiplicity]] is the same as the **algebraic multiplicity** for each **eigenvalue**, to confirm that $C$ is **diagonalisable**.
-* This proof is omitted for brevity, but it is done by **induction**, and using the [[Gram-Schmidt Process]].
+* This proof is omitted for brevity, but it is done by **induction**, and using the [[Gram-Schmidt Process]].  

@@ -6,3 +6,6 @@ views:
         - file.hasTag("#M40001")
     order:
       - file.name
+    sort:
+      - property: file.ctime
+        direction: ASC

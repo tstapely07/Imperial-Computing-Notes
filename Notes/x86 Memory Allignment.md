@@ -17,4 +17,4 @@ To achieve this when defining [[x86 Structures|structures]], the **compiler** mu
 * [[x86 Arrays|Arrays]] must be aligned to the size of their individual elements.
 Sometimes, the order we define **elements** can actually save us space:
 * ![[Pasted image 20260420155449.png|491]]
-* In general, we should define **elements** from **largest** to **smallest**.
+* In general, defining **elements** from **largest** to **smallest** often yields good results.

@@ -10,30 +10,30 @@ The [[Partial Derivatives|partial derivative]] of a **linear vector function** w
 $$\frac{\partial}{\partial \vec{x}}(\vec{\beta}\cdot \vec{x})=\vec{\beta}$$
 A **quadratic form** is a [[Matrix Rank|matrix]] **equation** that produces squared terms, and is written in the form $f(x)=x^TMx$, where $M$ is a **square matrix**.
 If $M$ is a **symmetric matrix**, meaning $M=M^T$, then the derivative is:
-$$\frac{\partial}{\partial \bar{x}} (x^T M x) = 2Mx$$
+$$\frac{\partial}{\partial \vec{x}} (x^T M x) = 2Mx$$
 
 
 We now need to define the **loss function** for higher dimensions.
 * We will again use the **sum of squared errors**.
 For a data **matrix** $X$, a target vector $\vec{Y}$ and a weight vector $\vec{\beta}$, the **error vector** is $(X\vec{\beta}-\vec{Y})$.
 We can find the **sum of squared errors** by taking the [[Inner Product|dot product]], using the **transpose**:
-$$L(D,\vec{\beta})=(X\vec{\beta}-\vec{Y})^T(X\vec{\beta}-\vec{Y})$$
+$$L(D,\vec{\beta})=(X\vec{\beta}-\vec{Y})^\top(X\vec{\beta}-\vec{Y})$$
 We can expand this to:
-$$L(\vec{\beta}) = (\vec{\beta}^T X^T - \vec{Y}^T)(X\vec{\beta} - \vec{Y})$$
+$$L(\vec{\beta}) = (\vec{\beta}^\top X^\top - \vec{Y}^\top)(X\vec{\beta} - \vec{Y})$$
 Multiplying out the brackets then yields:
-$$L(\vec{\beta}) = \vec{\beta}^T X^T X \vec{\beta} - \vec{\beta}^T X^T \vec{Y} - \vec{Y}^T X \vec{\beta} + \vec{Y}^T \vec{Y}$$
+$$L(\vec{\beta}) = \vec{\beta}^\top X^\top X \vec{\beta} - \vec{\beta}^\top X^\top \vec{Y} - \vec{Y}^\top X \vec{\beta} + \vec{Y}^\top \vec{Y}$$
 The two middle terms equal the exact same scalar, so we can group them:
-$$L(\vec{\beta}) = \vec{\beta}^T (X^T X) \vec{\beta} - 2(\vec{Y}^T X)\vec{\beta} + \vec{Y}^T \vec{Y}$$
+$$L(\vec{\beta}) = \vec{\beta}^\top (X^\top X) \vec{\beta} - 2(\vec{Y}^\top X)\vec{\beta} + \vec{Y}^\top \vec{Y}$$
 Now to find the minimum, we can take the [[Differentiation|derivative]] with respect to $\vec{B}$ and set it to $0$.
 * The first term is a **quadratic form**, which differentiates to $2X^TX\vec{\beta}$.
 * The second term is a **linear term**, so its **derivative** is just the **coefficient** $2\vec{Y}^TX$, which is also equivalent to $2X^T\vec{Y}$.
 * The third term is just a constant, so **differentiates** to $0$. 
 This all gives us:
-$$\frac{\partial L}{\partial \vec{\beta}} = 2X^T X \vec{\beta} - 2X^T \vec Y = 0$$
+$$\frac{\partial L}{\partial \vec{\beta}} = 2X^\top X \vec{\beta} - 2X^\top \vec Y = 0$$
 Now we can rearrange to get:
-$$X^T X \vec{\beta} = X^T \vec Y$$
+$$X^\top X \vec{\beta} = X^\top \vec Y$$
 And this gives us our final **weight vector**:
-$$\vec{\beta} = (X^T X)^{-1} X^T \vec{Y}$$
+$$\vec{\beta} = (X^\top X)^{-1} X^\top \vec{Y}$$
 
 > [!Example]
 > Let's do a worked example for three points in **2D**: $(1,1)$, $(2,2)$, and $(3,2)$.

@@ -4,7 +4,7 @@ tags:
   - first-year
   - M40008
 ---
-**>![Note] The Travelling Salesman Problem
+>![Note] The Travelling Salesman Problem
 >Given a [[Complete Graph|complete]] [[Weighted Graphs|weighted graph]] $(G,W)$, find a way to tour the [[graphs|graph]] visiting each [[Nodes|node]] **exactly once** and travelling the shortest possible distance.
 
 The **TSP** is clearly related to both the [[Hamiltonian Paths and Circuits|Hamiltonian circuit problem]] and the [[Shortest Path Problem|shortest path problem]], since our goal is to find a **Hamiltonian circuit** which is of minimum **weight**.

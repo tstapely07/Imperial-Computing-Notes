@@ -10,7 +10,7 @@ tags:
 > $$\forall x,y \; x \neq y \implies E_x\cap E_y=\emptyset$$
 
 This is identified by a **hexagon**.
-
+11
 > [!Example]
 > For example, no **person** can be both an `email_user` and `non_email_user`:
 > * ![[Pasted image 20260410150849.png|488]]

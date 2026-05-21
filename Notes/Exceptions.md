@@ -29,4 +29,4 @@ If we also add the two new registers, our **datapath** now looks like this:
 
 All that is left is to modify our [[State Transition Tables|state transition diagram]]:
 * ![[Pasted image 20260417115839.png|444]]
-* Note that for now, we are only considering $2$ possible **exceptions**, unknown **opcode**, and **overflow**.
+* Note that for now, we are only considering $2$ possible **exceptions**, **unknown** **opcode** and **overflow**.

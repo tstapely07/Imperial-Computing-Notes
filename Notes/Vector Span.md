@@ -11,7 +11,6 @@ For **example**:
 $\operatorname{span}\left\{\begin{bmatrix}1 \\ 0 \\ 0 \end{bmatrix},\begin{bmatrix} 0 \\ 1 \\0 \end{bmatrix}\right\}$ would be the $x,y$ plane. It is also a [[Vector Subspaces|subspace]] of $\mathbb{R}^3$. 
 Interestingly, $\operatorname{span}\left\{\begin{bmatrix}1 \\ 1 \\ 0 \end{bmatrix},\begin{bmatrix} -1 \\ 1 \\0 \end{bmatrix}\right\}$ would be the **same subspace**. This ties into [[Linear Independence|linear independence]].
 
-
 $\operatorname{span} \left\{\overrightarrow{v_1},\overrightarrow{v_2},\dots,\overrightarrow{v_n}\right\}$, where each $\overrightarrow{v_i}\in\mathbb{R}^n$, is a [[Vector Subspaces|subspace]] of the $\mathbb{R}^n$ [[Vector Spaces|vector space]] - so every **span** is a **subspace**.
 For example, $\operatorname{span}\left\{\begin{bmatrix}1 \\ 1 \\ 0 \end{bmatrix},\begin{bmatrix} -1 \\ 1 \\0 \end{bmatrix}\right\}$ is equivalent to the **subspace** $S=\left\{\begin{bmatrix}x \\ y \\ z \end{bmatrix}\in \mathbb{R}^3 \;\bigg| \; z = 0\right\}$
 

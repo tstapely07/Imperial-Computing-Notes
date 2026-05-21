@@ -53,6 +53,6 @@ Since $f$ is **continuous** in $[a,b]$, both **output sequences** must **converg
 $$\lim_{k \to \infty} f(x_{n_k}) = f(L) \quad \text{and} \quad \lim_{k \to \infty} f(y_{n_k}) = f(L)$$
 And therefore:
 $$\lim_{k \to \infty} |f(x_{n_k}) - f(y_{n_k})| = 0$$
-Now since $\epsilon\gt 0$, we know that $0\lt \epsilon$, which contradicts our assumption, giving us a **contradiction**.
+This gives $\epsilon \ge 0$, but we chose $\epsilon \gt 0$, which gives $0\gt 0$, a **contradiction**.
 Therefore the **function** is indeed **uniformly continuous**.
 

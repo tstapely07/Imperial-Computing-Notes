@@ -29,9 +29,9 @@ Dividing through by $n$ gives us:
 $$m\frac{\sum x_i}{n} + c - \frac{\sum y_i}{n} = 0$$
 We now recognise these terms as the **mean** of $x$ and $y$, giving us our formula for $c$ as:
 $$c=\bar{y}-m\bar{x}$$
-We can now substitute this formula for $c$ into our **partial derivative** with respect to $m$:
+We can now find the **partial derivative** with respect to $m$:
 $$\frac{\partial L}{\partial m} = 2\sum x_i(mx_i + c - y_i) = 0$$
-With some rearranging, we obtain our final formula for the **gradient**:
+With some rearranging, and substituting in $c$, we obtain our final formula for the **gradient**:
 $$m = \frac{x \cdot y - n\bar{x}\bar{y}}{x \cdot x - n\bar{x}^2}$$
 
 

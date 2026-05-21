@@ -27,6 +27,7 @@ If a [[Vectors|vector]] $\vec x$ is **stationary**, then $R\vec x = \vec x$, and
 $$(R-I)\vec x= \vec 0$$
 * For a **rotation matrix**, the **stationary vectors** are the [[Eigenvectors and Eigenvalues|eigenvectors]]. 
 * Since $\operatorname{Det}(R)=0$, these all have **eigenvalue** of $1$.
-Equivalently, the **axis of rotation** is given by the [[Eigenspaces|eigenspace]] $E_1=\operatorname{Ker}(R-A)$.
+Equivalently, the **axis of rotation** is given by the [[Eigenspaces|eigenspace]] $E_1=\operatorname{Ker}(R-I)$.
 * For a typical rotation, we have $\operatorname{dim}(\operatorname{Ker}(R-I)) = n-2$.
 * In a **3D space**, the **axis of rotation** is a **line**, whereas in a **4D space** it is a **plane**.
+

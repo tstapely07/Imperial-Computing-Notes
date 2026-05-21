@@ -25,9 +25,9 @@ tags:
 > * ![[Pasted image 20260408162045.png|264]]
 
 Within an `OVER` clause we can also add an [[SQL Order By|ORDER BY]] to sort the **rows** within the specific **window**.
-	* For example: `SUM(amount) OVER(ORDER BY tdate) AS running_total`
-	* Using `ORDER BY` changes the behaviour of **aggregate functions** to a **running total**.
-	* `ORDER BY` can also be combined with `PARTITION BY`.
+* For example: `SUM(amount) OVER(ORDER BY tdate) AS running_total`
+* Using `ORDER BY` changes the behaviour of **aggregate functions** to a **running total**.
+* `ORDER BY` can also be combined with `PARTITION BY`.
 
 When `ORDER BY` is used for a **window**, we get access to many more functions:
 * `LEAD(A)` returns the next value of column `A` in the **window**, or [[SQL Null|NULL]].
@@ -74,4 +74,5 @@ The default behaviour of `ORDER BY` is `RANGE BETWEEN UNBOUNDED PRECEDING AND CU
 > FROM movement
 > ```
 > This query returns:
-> * *![[Pasted image 20260408164312.png|392]]
+>  *![[Pasted image 20260408164312.png|392]]
+

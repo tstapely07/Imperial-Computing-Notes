@@ -7,11 +7,12 @@ tags:
 > [!Abstract] Definition
 > [[P vs NP|Assume]] that $P\ne NP$. If a [[Decision Problems|decision problem]] $D$ is [[NP-hard]], then $D\notin P$. 
 
+If $P\neq NP$ then **NP-hard** problems $\notin P$.
 Proof:
 Assume that $P\neq NP$ and $D$ is **NP-hard**.
 Suppose that $D\in P$.
 Take any random problem from [[Class NP|NP]], $D'\in NP$. because $D$ is **NP-hard**, $D'\le D$.
-Because $D'\le D$ and $D\in P$, the rules of [[Reduction|reduction]] state that $D'\in P.
+Because $D'\le D$ and $D\in P$, the rules of [[Reduction|reduction]] state that $D'\in P$.
 * Therefore any **problem** in $NP$ is also in [[Class P|P]], and so $NP\subseteq P$.
 Since we have $P\subseteq NP$ already, and have just shown that $NP\subseteq P$, this implies $P=NP$, which contradicts our initial assumptions.
 Therefore, as desired $D\notin P$.

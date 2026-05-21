@@ -67,7 +67,7 @@ do
 	while (Test);
 done:
 ```
-Or with `goto`:
+Or entirely with `goto`:
 ```C
 	if (!Test)
 		goto done;

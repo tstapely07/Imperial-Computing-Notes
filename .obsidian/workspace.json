@@ -4,31 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "732d87673b4dc890",
+        "id": "dcca9655638c9f61",
         "type": "tabs",
         "children": [
           {
-            "id": "aaf256f9d9170b9d",
+            "id": "d0fcfddac28d179f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notes/32-bit Processor.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "32-bit Processor"
+              "title": "New tab"
             }
           }
         ]
@@ -63,12 +49,12 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "IEEE",
+                "query": "",
                 "matchingCase": false,
-                "explainSearch": false,
+                "explainSearch": true,
                 "collapseAll": false,
                 "extraContext": false,
-                "sortOrder": "byModifiedTime"
+                "sortOrder": "byCreatedTimeReverse"
               },
               "icon": "lucide-search",
               "title": "Search"
@@ -106,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Heuristic Function.md",
+                "file": "Notes/Cache Associativity.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -116,7 +102,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Heuristic Function"
+              "title": "Backlinks for Cache Associativity"
             }
           },
           {
@@ -125,12 +111,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/32-bit Processor.md",
+                "file": "Notes/Cache Associativity.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 32-bit Processor"
+              "title": "Outgoing links from Cache Associativity"
             }
           },
           {
@@ -187,7 +173,8 @@
               "title": "Advanced Tables"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -206,34 +193,36 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "aaf256f9d9170b9d",
+  "active": "d0fcfddac28d179f",
   "lastOpenFiles": [
-    "Notes/Floating Point.md",
-    "Notes/32-bit Processor.md",
-    "Notes/The Master Theorem.md",
-    "Notes/NP-Complete.md",
-    "Notes/Class NP.md",
-    "Notes/Clock Dividers.md",
-    "Notes/Asynchronous Circuits.md",
-    "Notes/Memory Addressing Modes.md",
-    "Notes/Operand Types.md",
-    "Notes/x86 Datatypes.md",
-    "Notes/x86 Registers.md",
-    "Notes/The mov Instruction.md",
-    "Notes/x86 Arithmetic Operations.md",
-    "Notes/The lea Instruction.md",
-    "Notes/Condition Codes.md",
-    "Notes/Jump Instructions.md",
-    "Notes/Set Instructions.md",
-    "Notes/x86 Conditional Branching.md",
-    "Notes/condition.md",
-    "Notes/Conditional Branches.md",
-    "Notes/x86 Cache.md",
-    "Notes/x86 Memory Allignment.md",
-    "Notes/x86 Memory Layout.md",
-    "Notes/Memory Word Sizes.md",
-    "Notes/Conditional Moves.md",
-    "Notes/conditi.md",
+    "Notes/Column-Stochastic Matrix.md",
+    "Notes/Covariance.md",
+    "Notes/Spectral Theorem.md",
+    "Notes/Multiplicities of Eigenvalues.md",
+    "Notes/40017 - Linear Algebra.md",
+    "Notes/Rotations.md",
+    "Notes/PageRank Algorithm.md",
+    "Notes/Linear Regression (Linear Algebra).md",
+    "Notes/Morphisms.md",
+    "Notes/Orthogonalisation via Gaussian Elimination.md",
+    "Notes/Gram-Schmidt Process.md",
+    "Notes/Orthonormal Basis.md",
+    "Notes/Orthogonal Basis.md",
+    "Notes/Principal Component Analysis (PCA).md",
+    "Notes/Orthogonal Projection Matrix.md",
+    "Notes/Triangle Inequality (Linear Algebra).md",
+    "Notes/Cauchy-Schwarz Inequality.md",
+    "Notes/Inner Product.md",
+    "Notes/Outer Product.md",
+    "Notes/Cayley-Hamilton Theorem.md",
+    "Notes/Diagonalisation.md",
+    "Notes/Computing Eigenvalues and Eigenspaces.md",
+    "Notes/Eigenspaces.md",
+    "Notes/Eigenvectors and Eigenvalues.md",
+    "Notes/Triangular Matrices.md",
+    "Notes/Diagonal Matrices.md",
+    "Notes/Calculus Topics.base",
+    "Notes/Attachments/Pasted image 20260430195345.png",
     "Notes/DMLR Topics.base",
     "Notes/Attachments/Pasted image 20260422115015.png",
     "Notes/Attachments/Pasted image 20260422114858.png",
@@ -244,12 +233,10 @@
     "Notes/Attachments/Pasted image 20260422114409.png",
     "Notes/Attachments/Pasted image 20260422114356.png",
     "Notes/Attachments/Pasted image 20260422114341.png",
-    "Notes/Attachments/Pasted image 20260422114331.png",
     "Notes/Computer Architecture Topics.base",
     "Notes/Databases Topics.base",
     "Notes/Computer Systems Topics.base",
     "graph.mmd",
-    "Notes/Calculus Topics.base",
     "Notes/Haskell Topics.base",
     "Notes/Graphs Topic List.base",
     "Notes/Linear Algebra Topics.base",

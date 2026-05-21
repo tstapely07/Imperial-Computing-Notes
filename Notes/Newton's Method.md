@@ -37,3 +37,4 @@ $$|x_{n+1}-x^*|\le K|x_n-x^*|^2$$
 This proves that if the error is some fraction, it shrinks to $0$ extremely fast.
 * This is known as **quadratic convergence**.
 This also tells us that our initial guess, $x_0$ must be within $\frac{1}{K}$ from $x^*$ in order for **Newton's method** to find the **root**.
+

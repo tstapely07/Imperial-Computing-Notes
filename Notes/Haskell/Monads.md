@@ -29,7 +29,7 @@ joinList (xs:xss) = xs ++ joinList xss
 ```
 In other words, `joinList = concat`.
 
-The `join` function generalises [[Concat|concat]] for all **monadic** structures.
+The `join` function generalises [[Concat|concat]] for all **monadic** structures. 
 
 We also have `(>>=)`:
 ```Haskell

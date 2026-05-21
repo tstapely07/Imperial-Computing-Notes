@@ -53,7 +53,7 @@ We can implement this using a **microsequencer**:
 * ![[Pasted image 20260417110958.png|603]]
 * ![[Pasted image 20260417111033.png|386]]
 
-But what is the benefit of this approach, over our previous **ROM** based approach.
+Let's now examine the benefit of this approach, over our previous **ROM** based approach.
 Previously, the **ROM** had $11$ **bits** of **input**, and had to generate **19** **output** **bits**.
 * This means a **total size** of $2^{11}\times 19=38912$ **bits**.
 Now our **ROMS** are smaller, even though we now have $3$.

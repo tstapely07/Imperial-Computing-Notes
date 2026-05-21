@@ -4,7 +4,6 @@ tags:
   - first-year
   - M40017
 ---
-
 Any [[Linear Mapping|linear mapping]] $f:\mathbb{R}^n\rightarrow\mathbb{R}^m,\;n,m\neq\infty$, there exists an $m\times n$ **matrix** $A_f$, such that $\forall \overrightarrow{x}\in\mathbb{R}^n,A_f\overrightarrow{x}=f(\overrightarrow{x})$.
 To obtain $A_f$, we just need to know what $f$ does to the [[Standard Ordered Basis|standard ordered basis]].
 * These form the **columns** of $A_f$.
@@ -42,7 +41,6 @@ x_n\end{bmatrix}\\
 = A\overrightarrow{x}
 
 \end{gather}$$
-
 
 Let's do a **worked example**, finding $\operatorname{Im}(A),\operatorname{Ker}(A),\operatorname{Im}(A^T),\operatorname{Ker}(A^T)$:
 $$

@@ -15,3 +15,5 @@ Like there is an **equivalence** between the solution set to a **homogenous** [[
 
 Be careful when trying to find $\operatorname{dist}(\text{Affine},\overrightarrow{0})$, it is not just $\overrightarrow{c}$.
 * Instead, we must find a **normal vector**, and measure that length.
+
+

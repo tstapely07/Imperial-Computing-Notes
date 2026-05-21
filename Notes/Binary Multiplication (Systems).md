@@ -11,7 +11,7 @@ $$a_1a_0\times b_1b_0=(a_1\cdot b_1)\Leftarrow 2+(a_0\cdot b_1)\Leftarrow1+(a_1\
 We can construct this [[Combinatorial Circuits|circuit]] by wiring [[Half Adder|half adders]] as follows:
 * ![[Pasted image 20260409181305.png|384]]
 
-Although not as cleanly as with the [[ripple through carry adder]], we can use [[functional design]] and chain this $2$-**bit** to make a $4$-**bit** multiplier****:
+Although not as cleanly as with the [[ripple through carry adder]], we can use [[functional design]] and chain this $2$-**bit** to make a $4$-**bit** multiplier:
 * ![[Pasted image 20260409194744.png|390]]
 Of course, we can then repeat this process for $8$ and $32$-**bit** multipliers.
 

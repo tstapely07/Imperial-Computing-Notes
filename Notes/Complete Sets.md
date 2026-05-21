@@ -14,4 +14,4 @@ We know from the [[Completeness Axiom]] that the entire set of real numbers ($\m
 > * $A=\mathbb{Q}$ is **not complete**. As seen before, we can construct a **Cauchy sequence** of fractions that tends to $\sqrt{2}$. Although the sequence exists entirely inside $\mathbb{Q}$, the limit is outside of $\mathbb{Q}$.
 > * $A=[0,\infty)$ is **complete**. Any **Cauchy sequence** of non-negative numbers will eventually **converge**. 
 > * $A=(0,\infty)$ is **not complete**. For example the sequence $a_n=\frac{1}{n}$ consists of **positive terms**, within $A$, yet $\lim_{n\to\infty} \frac{1}{n}=0$, and $0\not\in A$.
-> 
+

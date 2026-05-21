@@ -10,7 +10,7 @@ We can turn a [[Relations|relation]] $R$ into a [[relational schema]] in [[Boyce
 2. Decompose $R$ into $R_a(Attrs(R)-A)$ and $R_b(XA)$.
 	* Since the **relations** share $X$, and $X\to A$, this is [[Lossless-Join Decomposition|lossless]].
 3. Project $S$ onto the new **relations** and repeat the process, until no **FDs** violate **BCNF**.
-
+ 
 Note that this is **very** similar to the [[Generating 3NF|algorithm for 3NF]].
 
 > [!Example]

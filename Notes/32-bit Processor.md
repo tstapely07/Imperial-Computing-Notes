@@ -25,7 +25,7 @@ Now our processor looks like this:
 We must now design the **controller**.
 We know that each **fetch cycle** retrieves one $32$-**bit** instruction from memory, so to design a **controller** we must first define the **instruction format**.
 **Instructions** that reference **memory** directly take the following form:
-* ![[Pasted image 20260412140049.png]]
+* ![[Pasted image 20260412140049.png|656]]
 The **instructions** of this form are:
 * `LOAD Reg, Address`
 * `STORE Reg, Address`
@@ -194,5 +194,5 @@ When selecting the **register**, we can often take $s2,s1,s0$ directly from the 
 Now we can define $s0,s1,s2$ with the following **circuit**, gated by $SRsrc$ and $SBus$:
 * ![[Pasted image 20260413110356.png|377]]
 Finally, we must define the **PC selector**.
-* This should only **increment** with the following conditions:
+This should only **increment** with the following conditions:
 * $s3=F1+E1\cdot (CALL+CALLINDIRECT)$

@@ -72,7 +72,7 @@ To prove $VRPC(D)$ is **NP-hard**, we must **reduce** a known **NP-hard** proble
 * We choose **MTSP(D)**, due to the involvement of the **triangle inequality**.
 Given a **metric graph** $(G,W)$ with $n$ **nodes** and a **bound** $B$, we define the our **vehicle routing problem** by:
 * Keeping the **graph** the same, and using the **bound** $B$ as our **budget**.
-* Picking any node to be the $start$ ndoe.
+* Picking any node to be the $start$ node.
 * Assign exactly $1$ package of size $1$ to every remaining **node**.
 * Create exactly $1$ vehicle, with a capacity of $n-1$.
 We must ensure that $MTSP(D)((G,W),B)\iff VRPC(D)(f((G,W),B))$.

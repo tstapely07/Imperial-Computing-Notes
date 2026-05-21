@@ -12,11 +12,11 @@ U=\operatorname{span}\{\overrightarrow{u_1},\overrightarrow{u_2},\dots,\overrigh
 V=\operatorname{span}\{\overrightarrow{v_1},\overrightarrow{v_2},\dots,\overrightarrow{v_l}\}
 \end{gather}$$
 So the [[Dimension|dimension]] of $U$ is $k$, and the **dimension** of $V$ is $l$.
-To find $U\cap V$, consider some **arbitrary** $\overrightarrow{x}\in U\cap V$ 
+To find $U\cap V$, consider some **arbitrary** $\overrightarrow{x}\in U\cap V$:
 $$\begin{gather}
 \overrightarrow{x}=\alpha_1\overrightarrow{u_1}+\dots+\alpha_k\overrightarrow{u_k}=-
 \beta_1\overrightarrow{v_1}-\dots-\beta_k\overrightarrow{v_k} \\
-\Leftrightarrow \overrightarrow\alpha_1\overrightarrow{u_1}+\dots+\alpha_k\overrightarrow{u_k}+
+\Leftrightarrow \alpha_1\overrightarrow{u_1}+\dots+\alpha_k\overrightarrow{u_k}+
 \beta_1\overrightarrow{v_1}+\dots+\beta_k\overrightarrow{v_k}=\overrightarrow{0} \\
 \Leftrightarrow\begin{bmatrix}\overrightarrow{u_1} & \dots & \overrightarrow{u_k}\overrightarrow{v_1} & \dots & \overrightarrow{v_l}\end{bmatrix}
 \begin{bmatrix}\alpha_1 \\
@@ -31,7 +31,6 @@ We can the substitute these into the definition of $\overrightarrow{x}$ to get $
 
 > [!Warning]
 > This approach only works when $\overrightarrow{u_1},\dots,\overrightarrow{u_k}$ is a [[Basis of a Subspace|basis]] of $U$ and $\overrightarrow{v_1},\dots,\overrightarrow{v_l}$ is a [[Basis of a Subspace|basis]] of $V$.
-
 
 > [!Note]
 > It is always true that:
@@ -160,26 +159,4 @@ R_4\rightarrow R_4-\frac{4}{3}R_3\\
 \text{Substituing this back in to our definition for }\overrightarrow{x} \text{ gives us } \overrightarrow{x}=\overrightarrow{0}\\
 \text{So the intersection } S\cap U=\{\overrightarrow{0}\}\\
 \text{This means the subspaces only intersect at the origin, and the dimension of their intesection is 0}
-\end{gather}$$
-
-And **another example**:
-$$\begin{gather}
-U=\operatorname{span}\left\{\begin{bmatrix}1 \\
-0 \\
-0 \\
-0\end{bmatrix},
-\begin{bmatrix}0 \\
-1 \\
-0 \\
-0\end{bmatrix}\right\},
-V=\operatorname{span}\left\{\begin{bmatrix}0 \\
-0 \\
-1 \\
-0\end{bmatrix},
-\begin{bmatrix}0 \\
-0 \\
-0 \\
-1\end{bmatrix}\right\}\\
-U\text{ and } V\text{ are both a basis, since their vectors are clearly linearly independent}\\
-\text{Let's set up the equation, and solve it}
 \end{gather}$$

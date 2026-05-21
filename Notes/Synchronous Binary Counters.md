@@ -4,7 +4,6 @@ tags:
   - first-year
   - M40001
 ---
-
 One [[binary]] counter is a two **bit** counter, which has four states:
 * $0$ ($00$)
 * $1$ ($01$)

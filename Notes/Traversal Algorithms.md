@@ -13,4 +13,4 @@ Two **traversal algorithms** are:
 * [[Depth-First Search (DFS)]]
 * [[Breadth-First Search (BFS)]]
 Both **algorithms** will traverse all the **nodes** in a **connected graph**, but the order of visiting is different.
-* Sometimes, either procedure will do, but other times one procedure is to be preffered.
+* Sometimes, either procedure will do, but other times one procedure is preferred.

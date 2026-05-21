@@ -5,7 +5,7 @@ tags:
   - M40017
 ---
 The **PageRank algorithm** is used by **Google** to rank **webpages**.
-Let $x_i$ be the **importance score** of some **page** $i$, and let $N_i$ be the total number of **outbound links** form **page** $i$.
+Let $x_i$ be the **importance score** of some **page** $i$, and let $N_i$ be the total number or **outbound links** form **page** $i$.
 * **Page** $i$ shares its **importance score** equally between all the **pages** that it **link** to.
 Thus the importance of a some **page** $i$ is the **sum** of the **value** of all **incoming links**:
 $$x_i=\sum \frac{x_j}{N_j}$$

@@ -113,7 +113,7 @@ Suppose $a_{k+1}\not\in\operatorname{arcs}(T')$
 	Since $T'$ is a **spanning tree** there must be a path in $T'$ from $x$ to $y$, and this path must cross from $T_k$ to the **fringe**, as shown in this diagram:
 		![[Pasted image 20260204142449.png|400]]
 	So we form a new **spanning tree** $T''$ from $T'$ by removing $a$ and adding $a_{k+1}$.
-	Since the algorithm chose $a_{k=1}$ rather than $a$, we have $W(a_{k+1})\leq W(a)$.
+	Since the algorithm chose $a_{k+1}$ rather than $a$, we have $W(a_{k+1})\leq W(a)$.
 	Hence $W(T'')\leq W(T')$, and so $T''$ is an **MST**.
 		In fact, since all **MSTs** have the same weight, $W(a_{k+1})= W(a)$.
 	Also $T_{k+1}\subseteq T''$ has required.

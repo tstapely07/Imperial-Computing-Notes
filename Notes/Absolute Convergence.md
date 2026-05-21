@@ -4,7 +4,6 @@ tags:
   - first-year
   - M40016
 ---
-
 > [!Abstract] Definition
 > A [[series]] $\sum_{n=0}^\infty a_n$ **absolutely converges** if the corresponding **series** of the **absolute values** of its **terms** **converges**:
 > $$\sum_{n=0}^\infty a_n\text{ is absolutely convergent}\iff\sum_{n=0}^\infty |a_n|\text{ is convergent}$$

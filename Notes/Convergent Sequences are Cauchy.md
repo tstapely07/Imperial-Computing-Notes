@@ -13,9 +13,9 @@ Because $\lim_{n\to\infty}a_n=A$, we can choose $\epsilon=\frac{\epsilon}{2}$ an
 $$|a_n-A|\lt \frac{\epsilon}{2}$$
 Now take $m,n\gt N$. We want to consider the distance $|a_n-a_m|$.
 By adding and subtracting $A$ we obtain:
-$$|a_n-a_m|=|a_n-a+a-a_m|$$
+$$|a_n-a_m|=|a_n-A+A-a_m|$$
 We can apply the [[Triangle Inequality (Calculus)|inequality]] to get:
-$$|a_n-a_m|\le |a_n-a|+|a-a_m|=|a_n-a|+|a_m-a|$$
+$$|a_n-a_m|\le |a_n-A|+|A-a_m|=|A_n-a|+|a_m-A|$$
 Now since $m,n\gt N$, we can conclude that:
-$$|a_n-a|+|a_m-a|\lt \frac{\epsilon}{2}+\frac{\epsilon}{2}=\epsilon$$
+$$|a_n-A|+|a_m-A|\lt \frac{\epsilon}{2}+\frac{\epsilon}{2}=\epsilon$$
 And so for all $m,n\gt N:|a_n-a_m|\lt\epsilon$, and so the sequence is **Cauchy**.

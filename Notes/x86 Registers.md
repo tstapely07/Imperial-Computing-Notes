@@ -12,7 +12,7 @@ tags:
 	* The suffix `l` or `b`, e.g. `%al` or `%r8b` refers to the lower $8$ **bits**.
 
 The various **registers** and their **roles** are given here:
-* ![[Pasted image 20260417214442.png|474]]
+* ![[Pasted image 20260417214442.png|588]]
 * The **caller-saved registers** can be freely overwritten by the **callee**.
 * If the **callee** wants to overwrite the **callee-saved registers**, it must save these **values** itself, and restore the original **values** before returning **control** back to the **caller**. 
 	* For more explanation, see [[x86 Control Flow|control flow]].

@@ -14,7 +14,7 @@ $$|x-y|\lt \delta\implies |f(x)-f(y)|\lt \frac{\epsilon}{b-a}$$
 * Note that we can pick $\frac{\epsilon}{b-a}$, since we can pick any $\epsilon\gt0$.
 Now we choose any **partition** $P$, where $||P||\lt \delta$.
 On any **closed subinterval** $[r_{i-1}-r_i]$, the [[extreme value theorem]] guarantees that $f$ attaints its **supremum** $M_i$ and **infimum** $m_i$.
-* Now, since $|r_{i}-r_{i-1}\lt\delta$, we can guarantee that $M_i-m_i\lt \frac{\epsilon}{b-a}$.
+* Now, since $|r_{i}-r_{i-1}|\lt\delta$, we can guarantee that $M_i-m_i\lt \frac{\epsilon}{b-a}$.
 Now lets consider $S^u(f,P)-S^l(f,P)$:
 $$\begin{gather}
 S^u(f,P)-S^l(f,P)=\sum_{i=1}^n(r_i-r_{i-1})M_i-\sum_{i=1}^n(r_i-r_{i-1})m_i\\

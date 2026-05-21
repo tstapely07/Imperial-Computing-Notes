@@ -10,6 +10,6 @@ Here's all the **instructions**:
 In practice, here's when we use the various **jumps**:
 * ![[Pasted image 20260418123428.png|379]]
 * The exact same is true for **set**.
-* Note that we shouldn't use `js`/`jns` with `cmp`, since it is not safe for **overflow**.
+* Note that we shouldn't use `js`/`jns` with `cmp`, since it is not safe for **overflow**, unless we are sure that **overflow** will not occur.
 * We shouldn't use `ja`/`jb` with `test`, since `test` always sets `CF=0`, which interferes with the **logic** behind `ja` and `jb`.
 

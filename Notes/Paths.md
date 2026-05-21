@@ -4,7 +4,6 @@ tags:
   - first-year
   - M40008
 ---
-
 > [!Abstract] Definition
 > A **path** in a [[Graphs|graph]] is a sequence of adjacent [[arcs|arcs]].
 

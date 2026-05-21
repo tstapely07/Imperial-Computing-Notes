@@ -4,3 +4,6 @@ views:
     filters:
       and:
         - file.tags.contains("#m40008")
+    sort:
+      - property: file.ctime
+        direction: ASC

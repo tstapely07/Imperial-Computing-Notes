@@ -14,7 +14,7 @@ tags:
 > [!Abstract] Definition
 > **Limit inferior**:
 > Let $c_n=\inf_{m\ge n}a_m$. 
-> * The **sequence** $(b_n)_{n\ge1}$ represents the **lower bounds** of the **tails** of $(a_n)_{n\ge1}$.
+> * The **sequence** $(c_n)_{n\ge1}$ represents the **lower bounds** of the **tails** of $(a_n)_{n\ge1}$.
 > $$\liminf_{n\to\infty} a_n=\lim_{n\to\infty} c_n$$
 > * $\liminf_{n\to\infty} a_n$ is the least **limit** of any valid [[Subsequences|subsequence]] of $(a_n)_{n\ge1}$.
 

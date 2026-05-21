@@ -4,7 +4,6 @@ tags:
   - first-year
   - M40008
 ---
-
 > [!Abstract] Definition
 > A **directed graph** is a set $N$ of [[Nodes|nodes]] and a set $A$ of [[Arcs|arcs]] such that  each $a\in A$ is associated with an **ordered** pair of **nodes** (the **endpoints** of $a$).
 

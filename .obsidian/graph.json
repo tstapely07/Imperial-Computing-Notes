@@ -1,5 +1,5 @@
 {
-  "collapse-filter": false,
+  "collapse-filter": true,
   "search": "",
   "showTags": false,
   "showAttachments": false,
@@ -62,6 +62,13 @@
         "a": 1,
         "rgb": 11621088
       }
+    },
+    {
+      "query": "tag:#m40018",
+      "color": {
+        "a": 1,
+        "rgb": 2251786
+      }
     }
   ],
   "collapse-display": true,
@@ -74,6 +81,6 @@
   "repelStrength": 12.3958333333333,
   "linkStrength": 0.833333333333333,
   "linkDistance": 210,
-  "scale": 0.281104933951531,
+  "scale": 1.0031378840922465,
   "close": true
 }

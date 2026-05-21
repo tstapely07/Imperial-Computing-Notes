@@ -28,7 +28,6 @@ There is a nicer way to write the definition for **linear independence**:
 > $\{\overrightarrow{v_1},\overrightarrow{v_2},\dots,\overrightarrow{v_n}\}$ are **linearly independent** if:
 > $$(\lambda_1\overrightarrow{v_1}+\lambda_2\overrightarrow{v_2}+\dots+\lambda_n\overrightarrow{v_n}=\overrightarrow{0})\implies(\lambda_1=\lambda_2=\dots=\lambda_n=0)$$
 
-
 We can check for **linear independence** of a set of [[Vectors|vectors]] by using [[Gaussian Elimination|Gaussian elimination]].
 For **vectors** $\{\overrightarrow{v_1},\overrightarrow{v_2},\dots,\overrightarrow{v_n}\}$, we create a [[Matrices|matrix]] by **augmenting** the **vectors**: $\begin{bmatrix}\overrightarrow{v_1}\quad\overrightarrow{v_2}\quad\dots\quad\overrightarrow{v_n}\end{bmatrix}$.
 If the [[Row Echelon Form (REF)|REF]] has a column **without** a [[Pivot|pivot]], than the [[Systems of Linear Equations|system of equations]] is **linearly dependent**.

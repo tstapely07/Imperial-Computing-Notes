@@ -10,7 +10,7 @@ However, since every **instruction** must finish in a single [[Clocks|clock]] **
 * This limits [[performance]].
 
 If we use **multiple cycles** per **instruction**, then different **instructions** can take different numbers of **cycles**.
-* We can reuse hardware, such as combining our **instruction memory** and **data memory**into a single block that is used twice in different **cycles**.
+* We can reuse hardware, such as combining our **instruction memory** and **data memory** into a single block that is used twice in different **cycles**.
 * Another way to reuse hardware is removing the need for extra [[Ripple Through Carry Adder|adders]] for the **PC**, we can just reuse the [[Arithmetic and Logic Unit (ALU) (Architecture)|ALU]].
 
 We need some way to store **data** between the **cycles** of an **instruction's execution**.

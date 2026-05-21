@@ -45,7 +45,7 @@ WHERE A NOT IN
 	 FROM S)
 ```
 But if $A$ or $B$ is **nullable**, then the equivalences no longer hold.
-* If a single `NULL` exists in the subquery, then `NOT IN` collapses to `UNKNOWN`, and so the zero rows are returned.
+* If a single `NULL` exists in the subquery, then `NOT IN` collapses to `UNKNOWN`, and so zero rows are returned.
 * The `EXCEPT` considers `NULL` to be equal to `NULL`, and so removes `NULL` from $A$ if it is present in $B$, whereas `NOT EXISTS` does not.
 For example:
 * `R = 1, NULL`
@@ -53,4 +53,4 @@ For example:
 * The first query returns `1`.
 * The second query returns `1, NULL`.
 * The third query returns nothing.
-  ```
+
