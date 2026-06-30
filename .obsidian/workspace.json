@@ -4,17 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "dcca9655638c9f61",
+        "id": "70a5f250d810354c",
         "type": "tabs",
         "children": [
           {
-            "id": "d0fcfddac28d179f",
+            "id": "c7dfba471dcfd7d3",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Notes/To-do Before C Test.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "To-do Before C Test"
             }
           }
         ]
@@ -193,8 +207,9 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "d0fcfddac28d179f",
+  "active": "c7dfba471dcfd7d3",
   "lastOpenFiles": [
+    "Notes/To-do Before C Test.md",
     "Notes/Column-Stochastic Matrix.md",
     "Notes/Covariance.md",
     "Notes/Spectral Theorem.md",
@@ -220,7 +235,6 @@
     "Notes/Eigenspaces.md",
     "Notes/Eigenvectors and Eigenvalues.md",
     "Notes/Triangular Matrices.md",
-    "Notes/Diagonal Matrices.md",
     "Notes/Calculus Topics.base",
     "Notes/Attachments/Pasted image 20260430195345.png",
     "Notes/DMLR Topics.base",
