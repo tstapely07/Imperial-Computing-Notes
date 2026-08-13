@@ -29,21 +29,7 @@
         "name": "",
         "active": true,
         "type": "FILES",
-        "pattern": "To-Do.md",
-        "patternType": "STRICT"
-      },
-      {
-        "name": "",
-        "active": true,
-        "type": "FILES",
         "pattern": "Notes/Haskell/Haskell.md",
-        "patternType": "STRICT"
-      },
-      {
-        "name": "",
-        "active": true,
-        "type": "FILES",
-        "pattern": "To-Do 25.4.md",
         "patternType": "STRICT"
       },
       {

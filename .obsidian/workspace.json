@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "70a5f250d810354c",
+        "id": "0af50bcbe934dcfc",
         "type": "tabs",
         "children": [
           {
-            "id": "c7dfba471dcfd7d3",
+            "id": "f9d5fb45f1b0cbb5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/To-do Before C Test.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "To-do Before C Test"
+              "title": "index"
             }
           }
         ]
@@ -50,7 +50,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical",
+                "sortOrder": "byModifiedTime",
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
@@ -84,13 +84,11 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 201.50247192382812,
-    "collapsed": true
+    "width": 201.50247192382812
   },
   "right": {
     "id": "d0d919f63ae27c33",
@@ -207,12 +205,16 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "c7dfba471dcfd7d3",
+  "active": "f9d5fb45f1b0cbb5",
   "lastOpenFiles": [
+    "Contribution Graph.md",
+    "index.md",
+    "To-Do.md",
+    "To-Do 25.4.md",
+    "Notes/Spectral Theorem.md",
     "Notes/To-do Before C Test.md",
     "Notes/Column-Stochastic Matrix.md",
     "Notes/Covariance.md",
-    "Notes/Spectral Theorem.md",
     "Notes/Multiplicities of Eigenvalues.md",
     "Notes/40017 - Linear Algebra.md",
     "Notes/Rotations.md",
@@ -231,10 +233,6 @@
     "Notes/Outer Product.md",
     "Notes/Cayley-Hamilton Theorem.md",
     "Notes/Diagonalisation.md",
-    "Notes/Computing Eigenvalues and Eigenspaces.md",
-    "Notes/Eigenspaces.md",
-    "Notes/Eigenvectors and Eigenvalues.md",
-    "Notes/Triangular Matrices.md",
     "Notes/Calculus Topics.base",
     "Notes/Attachments/Pasted image 20260430195345.png",
     "Notes/DMLR Topics.base",
