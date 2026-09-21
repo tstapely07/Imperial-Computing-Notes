@@ -1,6 +1,8 @@
 ---
 date:
 tags:
+  - first-year
+  - M40005
 ---
 In [[x86]], the **operand** or **operands** given to an [[Instruction Format|instruction]] can be one of three types:
 * A constant **immediate value**.

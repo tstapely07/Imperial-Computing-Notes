@@ -9,6 +9,8 @@ configuration:
   locale: en-GB
   baseUrl: tstapely07.github.io/Imperial-Computing-Notes
   ignorePatterns:
+    # Unreleased years/modules: remove a line to publish that folder
+    - Year 2
     - private
     - Templates
     - Useful
@@ -93,7 +95,7 @@ plugins:
     enabled: false
     order: 85
   - source: "@quartz-community/hard-line-breaks"
-    enabled: false
+    enabled: true
     order: 90
   - source: "@quartz-community/ox-hugo"
     enabled: false
@@ -104,9 +106,9 @@ plugins:
   - source: "@quartz-community/quartz-fonts"
     enabled: true
   - source: "@quartz-themes/core"
-    enabled: false
+    enabled: true
     options:
-      theme: tokyo-night
+      theme: obsidian-gruvbox
       mode: both
   - source: "@quartz-community/remove-draft"
     enabled: true
@@ -140,6 +142,13 @@ plugins:
       priority: 50
   - source: "@quartz-community/graph"
     enabled: true
+    options:
+      localGraph:
+        fontSize: 0.45
+        showTags: false
+      globalGraph:
+        fontSize: 0.45
+        showTags: false
     layout:
       position: right
       priority: 10
@@ -167,7 +176,7 @@ plugins:
       position: beforeBody
       priority: 20
   - source: "@quartz-community/tag-list"
-    enabled: false
+    enabled: true
     layout:
       position: beforeBody
       priority: 30
@@ -233,7 +242,7 @@ plugins:
         - tags
         - aliases
       excludedProperties: []
-      hidePropertiesView: false
+      hidePropertiesView: true
       delimiters: ---
       language: yaml
     order: 5

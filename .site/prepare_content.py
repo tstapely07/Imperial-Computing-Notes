@@ -4,6 +4,8 @@
   but Quartz only treats $$ as a display block when it sits on its own line.
 - Folder notes: Quartz publishes `X/X.md` as the folder page for `X/`, but
   can't resolve a bare `[[X]]` to it, so those links are made path-qualified.
+- Text straight after a bullet: Obsidian starts it back at the margin, but
+  Quartz folds it into the bullet above, so a blank line is put between them.
 
 Rewrites every .md under the given directory in place (run on the build copy,
 never the vault).
@@ -15,6 +17,9 @@ import sys
 # Leading callout/blockquote markers and indentation, e.g. "> " or ">> \t"
 PREFIX = re.compile(r"^[\s>]*")
 FENCE = re.compile(r"^[\s>]*(```|~~~)")
+# Just the blockquote markers, leaving the indentation of the text after them
+QUOTE = re.compile(r"^((?:[ \t]*>)*) ?")
+LIST_ITEM = re.compile(r"^\s*([*+-]|\d+[.)])(\s|$)")
 
 
 def normalise(text):
@@ -87,6 +92,36 @@ def normalise_closers(text):
     return "\n".join(out)
 
 
+def end_lists_before_unindented_text(text):
+    lines = text.split("\n")
+    start = 0
+    # Leave frontmatter alone; its tags are "- tag" lines
+    if lines and lines[0] == "---" and "---" in lines[1:]:
+        start = lines.index("---", 1) + 1
+    out = lines[:start]
+    in_code = in_math = in_list = False
+    for line in lines[start:]:
+        quote = QUOTE.match(line)
+        depth = quote.group(1).count(">")
+        body = line[quote.end():]
+        if FENCE.match(line):
+            in_code = not in_code
+        elif not in_code and body.strip() == "$$":
+            in_math = not in_math
+        elif not in_code and not in_math:
+            if not body.strip():
+                in_list = False
+            elif LIST_ITEM.match(body):
+                in_list = depth
+                out.append(line)
+                continue
+            elif in_list is not False and in_list == depth and not body[0].isspace():
+                out.append(quote.group(1))
+                in_list = False
+        out.append(line)
+    return "\n".join(out)
+
+
 def folder_note_paths(root):
     """Maps each folder note's name to its path, e.g. Haskell -> Notes/Haskell/Haskell"""
     notes = {}
@@ -111,7 +146,9 @@ if __name__ == "__main__":
     changed = 0
     for path in root.rglob("*.md"):
         text = path.read_text(encoding="utf-8")
-        new = qualify_folder_note_links(normalise_closers(normalise(text)), notes)
+        new = normalise_closers(normalise(text))
+        new = end_lists_before_unindented_text(new)
+        new = qualify_folder_note_links(new, notes)
         if new != text:
             path.write_text(new, encoding="utf-8")
             changed += 1

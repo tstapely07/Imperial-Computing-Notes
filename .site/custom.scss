@@ -1,0 +1,37 @@
+// Copied over Quartz's quartz/styles/custom.scss by build.sh
+
+// The gruvbox port sets --lightgray to a shade darker than the page, which is
+// what Quartz draws graph edges and borders in, so they vanish. Use the
+// border colour Obsidian's gruvbox uses instead (repeated :root out-ranks the
+// theme's own selector).
+:root:root:root[saved-theme] {
+  --lightgray: var(--background-modifier-border);
+}
+
+// Make the site title read as a home button: house icon, and highlight on hover
+.page-title a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4em;
+  transition: color 0.2s ease;
+
+  &::before {
+    content: "";
+    flex-shrink: 0;
+    width: 0.9em;
+    height: 0.9em;
+    background-color: currentColor;
+    mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M3 10.5 12 3l9 7.5'/%3E%3Cpath d='M5 9.5V21h14V9.5'/%3E%3Cpath d='M10 21v-6h4v6'/%3E%3C/svg%3E") no-repeat center / contain;
+  }
+
+  &:hover {
+    color: var(--tertiary);
+  }
+}
+
+// Every folder has its own note (Year 1, each module, Haskell), so the
+// generated "N items under this folder" listing below it only repeats that.
+// Folder pages are the ones whose slug ends in /index; tag pages keep theirs.
+body[data-slug$="/index"] .page-listing {
+  display: none;
+}

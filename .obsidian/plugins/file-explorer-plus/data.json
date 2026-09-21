@@ -22,13 +22,6 @@
         "name": "",
         "active": true,
         "type": "FILES",
-        "pattern": "Notes/Haskell/Haskell.md",
-        "patternType": "STRICT"
-      },
-      {
-        "name": "",
-        "active": true,
-        "type": "FILES",
         "pattern": "index.md",
         "patternType": "STRICT"
       }

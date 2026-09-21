@@ -1,0 +1,15 @@
+views:
+  - type: table
+    name: Topics
+    filters:
+      and:
+        - file.hasTag("haskell")
+        - not:
+            - file.hasTag("admin")
+    order:
+      - file.name
+    sort:
+      - property: date
+        direction: ASC
+      - property: file.name
+        direction: ASC
