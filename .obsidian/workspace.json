@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "Notes/Mathematical Induction.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,10 +28,23 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "Mathematical Induction"
+            }
+          },
+          {
+            "id": "701d07f5b98a57fe",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.13.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.13.7"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -51,7 +64,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "byModifiedTime",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -205,10 +220,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "f9d5fb45f1b0cbb5",
+  "active": "701d07f5b98a57fe",
   "lastOpenFiles": [
-    "Contribution Graph.md",
+    "Notes/40001 - Introduction to Computer Systems.md",
     "index.md",
+    "README.md",
+    "Notes/Mathematical Induction.md",
+    "Contribution Graph.md",
     "To-Do.md",
     "To-Do 25.4.md",
     "Notes/Spectral Theorem.md",
@@ -230,9 +248,6 @@
     "Notes/Triangle Inequality (Linear Algebra).md",
     "Notes/Cauchy-Schwarz Inequality.md",
     "Notes/Inner Product.md",
-    "Notes/Outer Product.md",
-    "Notes/Cayley-Hamilton Theorem.md",
-    "Notes/Diagonalisation.md",
     "Notes/Calculus Topics.base",
     "Notes/Attachments/Pasted image 20260430195345.png",
     "Notes/DMLR Topics.base",
