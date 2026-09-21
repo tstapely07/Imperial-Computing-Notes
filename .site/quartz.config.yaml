@@ -16,8 +16,6 @@ configuration:
     - .site
     - .github
     - README.md
-    - Notes/Untitled.md
-    - Notes/Architecture Export.md
   theme:
     fontOrigin: googleFonts
     cdnCaching: true
