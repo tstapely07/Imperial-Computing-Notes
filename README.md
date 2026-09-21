@@ -8,7 +8,7 @@ These are unofficial notes written while learning the material, so they will con
 
 ## Layout
 
-- `Index.md`: the site's homepage
+- `index.md`: the site's homepage
 - `Year 1/`: one folder per module. Each holds a module page named after the folder, a `.base` table listing its topics, and the notes themselves
 - `Attachments/`: every image the notes embed
 - `Templates/`, `Useful/`: Obsidian helpers, not published

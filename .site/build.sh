@@ -11,11 +11,10 @@ shift
 cp "$vault/.site/quartz.config.yaml" "$quartz/quartz.config.yaml"
 cp "$vault/.site/custom.scss" "$quartz/quartz/styles/custom.scss"
 
-# Copy the vault in as content; the vault's Index.md becomes the homepage
+# Copy the vault in as content; its index.md is the homepage
 rm -rf "$quartz/content"
 mkdir "$quartz/content"
 tar -C "$vault" --exclude=./.git --exclude=./.github --exclude=./.site --exclude=./.quartz-src -cf - . | tar -C "$quartz/content" -xf -
-mv "$quartz/content/Index.md" "$quartz/content/index.md"
 python3 "$vault/.site/prepare_content.py" "$quartz/content"
 
 cd "$quartz"
