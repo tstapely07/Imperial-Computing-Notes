@@ -36,7 +36,7 @@ mulMaybe (Just x) my = fmap (x*) my
 ```
 ```Haskell
 mulList :: [Int] -> [Int] -> [Int]
-mulList = [x * y | x <- xs, y <- ys]
+mulList xs ys = [x * y | x <- xs, y <- ys]
 ```
 
 These are basically the same as before, so let's create [[Higher-Order Functions|higher-order functions]] to capture the pattern:

@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "0af50bcbe934dcfc",
+        "id": "b4ed1c6f0fef2089",
         "type": "tabs",
         "children": [
           {
-            "id": "f9d5fb45f1b0cbb5",
+            "id": "25917bce3ac76d51",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Mathematical Induction.md",
+                "file": "Notes/Haskell/Applicatives.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,23 +28,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Mathematical Induction"
-            }
-          },
-          {
-            "id": "701d07f5b98a57fe",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.13.7"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.13.7"
+              "title": "Applicatives"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -196,8 +183,8 @@
             "state": {
               "type": "advanced-tables-toolbar",
               "state": {},
-              "icon": "spreadsheet",
-              "title": "Advanced Tables"
+              "icon": "lucide-ghost",
+              "title": "advanced-tables-toolbar"
             }
           }
         ],
@@ -220,12 +207,20 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "701d07f5b98a57fe",
+  "active": "9757dec4315d6ca2",
   "lastOpenFiles": [
+    "Notes/40017 - Linear Algebra.md",
+    "Notes/40018 - Discrete Mathematics, Logic, and Reasoning.md",
+    "Notes/Mathematical Induction.md",
+    "Notes/Cauchy Sequence.md",
+    "Notes/40016 - Calculus.md",
+    "Notes/Haskell/Haskell.md",
+    "Notes/Reasoning About Programs Coursework Answers.md",
+    "Notes/Graphs Coursework Answers.md",
+    "Notes/Attachments/Pasted image 20260422114409.png",
     "Notes/40001 - Introduction to Computer Systems.md",
     "index.md",
     "README.md",
-    "Notes/Mathematical Induction.md",
     "Contribution Graph.md",
     "To-Do.md",
     "To-Do 25.4.md",
@@ -234,7 +229,6 @@
     "Notes/Column-Stochastic Matrix.md",
     "Notes/Covariance.md",
     "Notes/Multiplicities of Eigenvalues.md",
-    "Notes/40017 - Linear Algebra.md",
     "Notes/Rotations.md",
     "Notes/PageRank Algorithm.md",
     "Notes/Linear Regression (Linear Algebra).md",
@@ -242,12 +236,6 @@
     "Notes/Orthogonalisation via Gaussian Elimination.md",
     "Notes/Gram-Schmidt Process.md",
     "Notes/Orthonormal Basis.md",
-    "Notes/Orthogonal Basis.md",
-    "Notes/Principal Component Analysis (PCA).md",
-    "Notes/Orthogonal Projection Matrix.md",
-    "Notes/Triangle Inequality (Linear Algebra).md",
-    "Notes/Cauchy-Schwarz Inequality.md",
-    "Notes/Inner Product.md",
     "Notes/Calculus Topics.base",
     "Notes/Attachments/Pasted image 20260430195345.png",
     "Notes/DMLR Topics.base",
@@ -257,7 +245,6 @@
     "Notes/Attachments/Pasted image 20260422114825.png",
     "Notes/Attachments/Pasted image 20260422114451.png",
     "Notes/Attachments/Pasted image 20260422114441.png",
-    "Notes/Attachments/Pasted image 20260422114409.png",
     "Notes/Attachments/Pasted image 20260422114356.png",
     "Notes/Attachments/Pasted image 20260422114341.png",
     "Notes/Computer Architecture Topics.base",

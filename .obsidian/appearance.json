@@ -3,5 +3,6 @@
   "enabledCssSnippets": [
     "clean-block-ids",
     "clean-embeds"
-  ]
+  ],
+  "theme": "obsidian"
 }
